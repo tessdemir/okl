@@ -9234,7 +9234,7 @@ th.hide-for-touch {
 .story-intro-1 .story-intro-1__image {
   height: 348px;
   font-size: 1px;
-  background-image: url("/assets/img__story-intro.jpg");
+  background-image: url("../assets/img__story-intro.jpg");
   background-size: cover;
   background-position: center;
 }

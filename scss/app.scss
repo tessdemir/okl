@@ -1,40 +1,132 @@
 @import "settings";
-@import "foundation";
+//@import "foundation";
 
 // Or selectively include components
-// @import
-//   "foundation/components/accordion",
-//   "foundation/components/alert-boxes",
-//   "foundation/components/block-grid",
-//   "foundation/components/breadcrumbs",
-//   "foundation/components/button-groups",
-//   "foundation/components/buttons",
-//   "foundation/components/clearing",
-//   "foundation/components/dropdown",
-//   "foundation/components/dropdown-buttons",
-//   "foundation/components/flex-video",
-//   "foundation/components/forms",
-//   "foundation/components/grid",
-//   "foundation/components/inline-lists",
-//   "foundation/components/joyride",
-//   "foundation/components/keystrokes",
-//   "foundation/components/labels",
-//   "foundation/components/magellan",
-//   "foundation/components/orbit",
-//   "foundation/components/pagination",
-//   "foundation/components/panels",
-//   "foundation/components/pricing-tables",
-//   "foundation/components/progress-bars",
-//   "foundation/components/reveal",
-//   "foundation/components/side-nav",
-//   "foundation/components/split-buttons",
-//   "foundation/components/sub-nav",
-//   "foundation/components/switches",
-//   "foundation/components/tables",
-//   "foundation/components/tabs",
-//   "foundation/components/thumbs",
-//   "foundation/components/tooltips",
-//   "foundation/components/top-bar",
-//   "foundation/components/type",
-//   "foundation/components/offcanvas",
-//   "foundation/components/visibility";
+ @import
+   "components/accordion",
+   "components/alert-boxes",
+   "components/block-grid",
+   "components/breadcrumbs",
+   "components/button-groups",
+   "components/buttons",
+   "components/clearing",
+   "components/dropdown",
+   "components/dropdown-buttons",
+   "components/flex-video",
+   "components/forms",
+   "components/grid",
+   "components/inline-lists",
+   "components/joyride",
+   "components/keystrokes",
+   "components/labels",
+   "components/magellan",
+   "components/orbit",
+   "components/pagination",
+   "components/panels",
+   "components/pricing-tables",
+   "components/progress-bars",
+   "components/reveal",
+   "components/side-nav",
+   "components/split-buttons",
+   "components/sub-nav",
+   "components/switches",
+   "components/tables",
+   "components/tabs",
+   "components/thumbs",
+   "components/tooltips",
+   "components/top-bar",
+   "components/type",
+   "components/offcanvas",
+   "components/visibility";
+
+
+
+
+
+//-----------------------------------------------
+// GLOBAL NAV
+//-----------------------------------------------
+
+.global-nav {
+    height: 102px;
+    border-bottom: 1px solid $stroke-gray;
+    color: $stroke-gray;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 102px;
+    text-align: center;   
+}
+
+
+
+
+
+//-----------------------------------------------
+// STORY INTRO 1
+//-----------------------------------------------
+
+.story-intro-1 {
+    height: 348px;
+    border-bottom: 1px solid $stroke-gray;
+    
+    .story-intro-1__copy {
+        height: 348px;
+        background-color: $background-gray;
+        padding: 90px 0;
+        
+        .story-intro-1__copy--title {
+            font-family: "Sofia Pro";
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-size: 36px;
+            line-height: 42px;
+            color: $black-1;
+            margin-bottom: 12px;
+        }
+        
+        .story-intro-1__copy--dek {
+            float: left;
+            font-weight: 500;
+            letter-spacing: 1px;
+            color: $black-1;
+            line-height: 20px;
+        }
+    }
+    
+    .story-intro-1__image {
+        height: 348px;
+        font-size: 1px;
+        background-image: url("/assets/img__story-intro.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+
+
+
+
+//-----------------------------------------------
+// PRODUCT GRID
+//-----------------------------------------------
+
+.product-grid {
+    margin-top: 60px;
+    
+    >div {
+        
+        >ul {
+
+            >li {
+                
+                >div {
+                    background-color: $background-gray;
+                    height: 348px;
+                }
+            }
+        }
+    }
+    
+}

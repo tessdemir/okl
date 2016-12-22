@@ -5,26 +5,26 @@ meta.foundation-version {
 
 /* line 435, ../scss/components/_global.scss */
 meta.foundation-mq-small {
-  font-family: "/only screen/";
-  width: 0;
+  font-family: "/only screen and (min-width:30.0625em)/";
+  width: 30.0625em;
 }
 
 /* line 440, ../scss/components/_global.scss */
 meta.foundation-mq-small-only {
-  font-family: "/only screen and (max-width: 40em)/";
-  width: 0;
+  font-family: "/only screen and (min-width:30.0625em) and (max-width:48em)/";
+  width: 30.0625em;
 }
 
 /* line 445, ../scss/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.0625em)/";
-  width: 40.0625em;
+  font-family: "/only screen and (min-width:48.0625em)/";
+  width: 48.0625em;
 }
 
 /* line 450, ../scss/components/_global.scss */
 meta.foundation-mq-medium-only {
-  font-family: "/only screen and (min-width:40.0625em) and (max-width:64em)/";
-  width: 40.0625em;
+  font-family: "/only screen and (min-width:48.0625em) and (max-width:64em)/";
+  width: 48.0625em;
 }
 
 /* line 455, ../scss/components/_global.scss */
@@ -199,21 +199,21 @@ select {
 }
 /* line 139, ../scss/components/_accordion.scss */
 .accordion .accordion-navigation.active > a, .accordion dd.active > a {
-  background: #e8e8e8;
-  color: #222222;
+  background: none;
+  color: #008046;
 }
 /* line 140, ../scss/components/_accordion.scss */
 .accordion .accordion-navigation > a, .accordion dd > a {
-  background: #EFEFEF;
-  color: #222222;
+  background: #FFFFFF;
+  color: #323232;
   display: block;
   font-family: "Proxima Nova", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
-  padding: 1rem;
+  padding: 0.75rem;
 }
 /* line 147, ../scss/components/_accordion.scss */
 .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
-  background: #e3e3e3;
+  background: none;
 }
 /* line 150, ../scss/components/_accordion.scss */
 .accordion .accordion-navigation > .content, .accordion dd > .content {
@@ -325,6 +325,175 @@ select {
 }
 
 @media only screen {
+  /* line 62, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-1 > li {
+    list-style: none;
+    width: 100%;
+  }
+  /* line 69, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-1 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-1 > li:nth-of-type(1n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-2 > li {
+    list-style: none;
+    width: 50%;
+  }
+  /* line 69, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-2 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-2 > li:nth-of-type(2n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-3 > li {
+    list-style: none;
+    width: 33.33333%;
+  }
+  /* line 69, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-3 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-3 > li:nth-of-type(3n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-4 > li {
+    list-style: none;
+    width: 25%;
+  }
+  /* line 69, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-4 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-4 > li:nth-of-type(4n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-5 > li {
+    list-style: none;
+    width: 20%;
+  }
+  /* line 69, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-5 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-5 > li:nth-of-type(5n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-6 > li {
+    list-style: none;
+    width: 16.66667%;
+  }
+  /* line 69, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-6 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-6 > li:nth-of-type(6n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-7 > li {
+    list-style: none;
+    width: 14.28571%;
+  }
+  /* line 69, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-7 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-7 > li:nth-of-type(7n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-8 > li {
+    list-style: none;
+    width: 12.5%;
+  }
+  /* line 69, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-8 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-8 > li:nth-of-type(8n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-9 > li {
+    list-style: none;
+    width: 11.11111%;
+  }
+  /* line 69, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-9 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-9 > li:nth-of-type(9n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-10 > li {
+    list-style: none;
+    width: 10%;
+  }
+  /* line 69, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-10 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-10 > li:nth-of-type(10n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-11 > li {
+    list-style: none;
+    width: 9.09091%;
+  }
+  /* line 69, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-11 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-11 > li:nth-of-type(11n+1) {
+    clear: both;
+  }
+
+  /* line 62, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-12 > li {
+    list-style: none;
+    width: 8.33333%;
+  }
+  /* line 69, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-12 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../scss/components/_block-grid.scss */
+  .xsmall-block-grid-12 > li:nth-of-type(12n+1) {
+    clear: both;
+  }
+}
+@media only screen and (min-width: 30.0625em) {
   /* line 62, ../scss/components/_block-grid.scss */
   .small-block-grid-1 > li {
     list-style: none;
@@ -493,7 +662,7 @@ select {
     clear: both;
   }
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 62, ../scss/components/_block-grid.scss */
   .medium-block-grid-1 > li {
     list-style: none;
@@ -1187,7 +1356,7 @@ button::-moz-focus-inner {
   padding: 0;
 }
 
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 255, ../scss/components/_buttons.scss */
   button, .button {
     display: inline-block;
@@ -1400,7 +1569,7 @@ button::-moz-focus-inner {
 .button-group.stack-for-small > li:first-child button, .button-group.stack-for-small > li:first-child .button {
   border-left: 0;
 }
-@media only screen and (max-width: 40em) {
+@media only screen and (min-width: 30.0625em) and (max-width: 48em) {
   /* line 171, ../scss/components/_button-groups.scss */
   .button-group.stack-for-small > li {
     display: block;
@@ -1519,7 +1688,7 @@ button::-moz-focus-inner {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 182, ../scss/components/_button-groups.scss */
   .button-group.radius.stack-for-small > * {
     display: inline-block;
@@ -1556,7 +1725,7 @@ button::-moz-focus-inner {
     border-top-right-radius: 3px;
   }
 }
-@media only screen and (max-width: 40em) {
+@media only screen and (min-width: 30.0625em) and (max-width: 48em) {
   /* line 182, ../scss/components/_button-groups.scss */
   .button-group.radius.stack-for-small > * {
     display: block;
@@ -1695,7 +1864,7 @@ button::-moz-focus-inner {
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 193, ../scss/components/_button-groups.scss */
   .button-group.round.stack-for-small > * {
     display: inline-block;
@@ -1732,7 +1901,7 @@ button::-moz-focus-inner {
     border-top-right-radius: 1000px;
   }
 }
-@media only screen and (max-width: 40em) {
+@media only screen and (min-width: 30.0625em) and (max-width: 48em) {
   /* line 193, ../scss/components/_button-groups.scss */
   .button-group.round.stack-for-small > * {
     display: block;
@@ -1931,7 +2100,7 @@ button::-moz-focus-inner {
   display: block;
 }
 
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 156, ../scss/components/_clearing.scss */
   .clearing-main-prev,
   .clearing-main-next {
@@ -3061,7 +3230,7 @@ label.error {
   float: left;
 }
 
-@media only screen {
+@media only screen and (min-width: 30.0625em) {
   /* line 155, ../scss/components/_grid.scss */
   .small-push-0 {
     position: relative;
@@ -3421,7 +3590,7 @@ label.error {
     float: left;
   }
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 155, ../scss/components/_grid.scss */
   .medium-push-0 {
     position: relative;
@@ -4666,7 +4835,7 @@ label.error {
 }
 
 /* Styles for screens that are at least 768px; */
-@media only screen {
+@media only screen and (min-width: 30.0625em) {
   /* line 190, ../scss/components/_joyride.scss */
   .joyride-tip-guide {
     width: 300px;
@@ -5080,7 +5249,7 @@ kbd {
   display: none;
 }
 
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 354, ../scss/components/_orbit.scss */
   .touch .orbit-container .orbit-prev,
   .touch .orbit-container .orbit-next {
@@ -5091,7 +5260,7 @@ kbd {
     display: block;
   }
 }
-@media only screen and (max-width: 40em) {
+@media only screen and (min-width: 30.0625em) and (max-width: 48em) {
   /* line 365, ../scss/components/_orbit.scss */
   .orbit-stack-on-small .orbit-slides-container {
     height: auto !important;
@@ -5438,7 +5607,7 @@ ul.pagination li {
   border: solid 1px #666666;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
-@media only screen and (max-width: 40em) {
+@media only screen and (min-width: 30.0625em) and (max-width: 48em) {
   /* line 174, ../scss/components/_reveal.scss */
   .reveal-modal {
     min-height: 100vh;
@@ -5456,7 +5625,7 @@ ul.pagination li {
 .reveal-modal > :last-child {
   margin-bottom: 0;
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 174, ../scss/components/_reveal.scss */
   .reveal-modal {
     left: 0;
@@ -5466,7 +5635,7 @@ ul.pagination li {
     width: 80%;
   }
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 174, ../scss/components/_reveal.scss */
   .reveal-modal {
     top: 6.25rem;
@@ -5487,7 +5656,7 @@ ul.pagination li {
   padding: 0;
   box-shadow: none;
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 188, ../scss/components/_reveal.scss */
   .reveal-modal.tiny {
     left: 0;
@@ -5497,7 +5666,7 @@ ul.pagination li {
     width: 30%;
   }
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 189, ../scss/components/_reveal.scss */
   .reveal-modal.small {
     left: 0;
@@ -5507,7 +5676,7 @@ ul.pagination li {
     width: 40%;
   }
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 190, ../scss/components/_reveal.scss */
   .reveal-modal.medium {
     left: 0;
@@ -5517,7 +5686,7 @@ ul.pagination li {
     width: 60%;
   }
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 191, ../scss/components/_reveal.scss */
   .reveal-modal.large {
     left: 0;
@@ -5527,7 +5696,7 @@ ul.pagination li {
     width: 70%;
   }
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 192, ../scss/components/_reveal.scss */
   .reveal-modal.xlarge {
     left: 0;
@@ -5547,7 +5716,7 @@ ul.pagination li {
   min-height: 100vh;
   top: 0;
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 193, ../scss/components/_reveal.scss */
   .reveal-modal.full {
     left: 0;
@@ -6155,7 +6324,7 @@ table tr td {
   padding: 0 0.75rem;
 }
 
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 115, ../scss/components/_tabs.scss */
   .tabs.vertical {
     float: left;
@@ -6275,7 +6444,7 @@ table tr td {
   font-weight: normal;
 }
 
-@media only screen {
+@media only screen and (min-width: 30.0625em) {
   /* line 110, ../scss/components/_tooltips.scss */
   .tooltip > .nub {
     border-color: transparent transparent #333333 transparent;
@@ -6310,8 +6479,8 @@ table tr td {
 }
 /* line 113, ../scss/components/_top-bar.scss */
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width:40.0625em)/";
-  width: 40.0625em;
+  font-family: "/only screen and (min-width:48.0625em)/";
+  width: 48.0625em;
 }
 
 /* Wrapped around .top-bar to contain to grid width */
@@ -6391,7 +6560,7 @@ meta.foundation-mq-topbar {
   padding-bottom: 0.4125rem;
   padding-top: 0.4125rem;
 }
-@media only screen and (max-width: 40em) {
+@media only screen and (min-width: 30.0625em) and (max-width: 48em) {
   /* line 188, ../scss/components/_top-bar.scss */
   .top-bar .button, .top-bar button {
     position: relative;
@@ -6838,7 +7007,7 @@ meta.foundation-mq-topbar {
   display: block;
 }
 
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 492, ../scss/components/_top-bar.scss */
   .top-bar {
     background: #333333;
@@ -7127,7 +7296,7 @@ meta.foundation-mq-topbar {
   text-align: justify !important;
 }
 
-@media only screen and (max-width: 40em) {
+@media only screen and (min-width: 30.0625em) and (max-width: 48em) {
   /* line 165, ../scss/components/_type.scss */
   .small-only-text-left {
     text-align: left !important;
@@ -7148,7 +7317,7 @@ meta.foundation-mq-topbar {
     text-align: justify !important;
   }
 }
-@media only screen {
+@media only screen and (min-width: 30.0625em) {
   /* line 165, ../scss/components/_type.scss */
   .small-text-left {
     text-align: left !important;
@@ -7169,7 +7338,7 @@ meta.foundation-mq-topbar {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 40.0625em) and (max-width: 64em) {
+@media only screen and (min-width: 48.0625em) and (max-width: 64em) {
   /* line 165, ../scss/components/_type.scss */
   .medium-only-text-left {
     text-align: left !important;
@@ -7190,7 +7359,7 @@ meta.foundation-mq-topbar {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 165, ../scss/components/_type.scss */
   .medium-text-left {
     text-align: left !important;
@@ -7661,7 +7830,7 @@ blockquote p {
   padding: 0 0.0625rem;
 }
 
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 461, ../scss/components/_type.scss */
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
@@ -8081,7 +8250,7 @@ ul.off-canvas-list li a:active {
   top: 0;
   z-index: 1002;
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 296, ../scss/components/_offcanvas.scss */
   .move-right .exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -8112,7 +8281,7 @@ ul.off-canvas-list li a:active {
   top: 0;
   z-index: 1002;
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 296, ../scss/components/_offcanvas.scss */
   .move-left .exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -8143,7 +8312,7 @@ ul.off-canvas-list li a:active {
   top: 0;
   z-index: 1002;
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 296, ../scss/components/_offcanvas.scss */
   .move-top .exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -8174,7 +8343,7 @@ ul.off-canvas-list li a:active {
   top: 0;
   z-index: 1002;
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 296, ../scss/components/_offcanvas.scss */
   .move-bottom .exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -8207,7 +8376,7 @@ ul.off-canvas-list li a:active {
   top: 0;
   z-index: 1002;
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 296, ../scss/components/_offcanvas.scss */
   .offcanvas-overlap .exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -8239,7 +8408,7 @@ ul.off-canvas-list li a:active {
   top: 0;
   z-index: 1002;
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 296, ../scss/components/_offcanvas.scss */
   .offcanvas-overlap-left .exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -8271,7 +8440,7 @@ ul.off-canvas-list li a:active {
   top: 0;
   z-index: 1002;
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 296, ../scss/components/_offcanvas.scss */
   .offcanvas-overlap-right .exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -8303,7 +8472,7 @@ ul.off-canvas-list li a:active {
   top: 0;
   z-index: 1002;
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 296, ../scss/components/_offcanvas.scss */
   .offcanvas-overlap-top .exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -8335,7 +8504,7 @@ ul.off-canvas-list li a:active {
   top: 0;
   z-index: 1002;
 }
-@media only screen and (min-width: 40.0625em) {
+@media only screen and (min-width: 48.0625em) {
   /* line 296, ../scss/components/_offcanvas.scss */
   .offcanvas-overlap-bottom .exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -8631,20 +8800,20 @@ ul.off-canvas-list li a:active {
   display: inline;
 }
 
-/* small displays */
+/* xsmall small displays */
 @media only screen {
-  /* line 244, ../scss/components/_visibility.scss */
-  .show-for-small-only, .show-for-small-up, .show-for-small, .show-for-small-down, .hide-for-medium-only, .hide-for-medium-up, .hide-for-medium, .show-for-medium-down, .hide-for-large-only, .hide-for-large-up, .hide-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xlarge, .show-for-xlarge-down, .hide-for-xxlarge-only, .hide-for-xxlarge-up, .hide-for-xxlarge, .show-for-xxlarge-down {
+  /* line 246, ../scss/components/_visibility.scss */
+  .show-for-xsmall small-only, .show-for-xsmall small-up, .show-for-xsmall small, .show-for-xsmall small-down, .hide-for-medium-only, .hide-for-medium-up, .hide-for-medium, .show-for-medium-down, .hide-for-large-only, .hide-for-large-up, .hide-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xlarge, .show-for-xlarge-down, .hide-for-xxlarge-only, .hide-for-xxlarge-up, .hide-for-xxlarge, .show-for-xxlarge-down {
     display: inherit !important;
   }
 
-  /* line 247, ../scss/components/_visibility.scss */
-  .hide-for-small-only, .hide-for-small-up, .hide-for-small, .hide-for-small-down, .show-for-medium-only, .show-for-medium-up, .show-for-medium, .hide-for-medium-down, .show-for-large-only, .show-for-large-up, .show-for-large, .hide-for-large-down, .show-for-xlarge-only, .show-for-xlarge-up, .show-for-xlarge, .hide-for-xlarge-down, .show-for-xxlarge-only, .show-for-xxlarge-up, .show-for-xxlarge, .hide-for-xxlarge-down {
+  /* line 249, ../scss/components/_visibility.scss */
+  .hide-for-xsmall small-only, .hide-for-xsmall small-up, .hide-for-xsmall small, .hide-for-xsmall small-down, .show-for-medium-only, .show-for-medium-up, .show-for-medium, .hide-for-medium-down, .show-for-large-only, .show-for-large-up, .show-for-large, .hide-for-large-down, .show-for-xlarge-only, .show-for-xlarge-up, .show-for-xlarge, .hide-for-xlarge-down, .show-for-xxlarge-only, .show-for-xxlarge-up, .show-for-xxlarge, .hide-for-xxlarge-down {
     display: none !important;
   }
 
-  /* line 251, ../scss/components/_visibility.scss */
-  .visible-for-small-only, .visible-for-small-up, .visible-for-small, .visible-for-small-down, .hidden-for-medium-only, .hidden-for-medium-up, .hidden-for-medium, .visible-for-medium-down, .hidden-for-large-only, .hidden-for-large-up, .hidden-for-large, .visible-for-large-down, .hidden-for-xlarge-only, .hidden-for-xlarge-up, .hidden-for-xlarge, .visible-for-xlarge-down, .hidden-for-xxlarge-only, .hidden-for-xxlarge-up, .hidden-for-xxlarge, .visible-for-xxlarge-down {
+  /* line 253, ../scss/components/_visibility.scss */
+  .visible-for-xsmall small-only, .visible-for-xsmall small-up, .visible-for-xsmall small, .visible-for-xsmall small-down, .hidden-for-medium-only, .hidden-for-medium-up, .hidden-for-medium, .visible-for-medium-down, .hidden-for-large-only, .hidden-for-large-up, .hidden-for-large, .visible-for-large-down, .hidden-for-xlarge-only, .hidden-for-xlarge-up, .hidden-for-xlarge, .visible-for-xlarge-down, .hidden-for-xxlarge-only, .hidden-for-xxlarge-up, .hidden-for-xxlarge, .visible-for-xxlarge-down {
     position: static !important;
     height: auto;
     width: auto;
@@ -8652,8 +8821,8 @@ ul.off-canvas-list li a:active {
     clip: auto;
   }
 
-  /* line 254, ../scss/components/_visibility.scss */
-  .hidden-for-small-only, .hidden-for-small-up, .hidden-for-small, .hidden-for-small-down, .visible-for-medium-only, .visible-for-medium-up, .visible-for-medium, .hidden-for-medium-down, .visible-for-large-only, .visible-for-large-up, .visible-for-large, .hidden-for-large-down, .visible-for-xlarge-only, .visible-for-xlarge-up, .visible-for-xlarge, .hidden-for-xlarge-down, .visible-for-xxlarge-only, .visible-for-xxlarge-up, .visible-for-xxlarge, .hidden-for-xxlarge-down {
+  /* line 256, ../scss/components/_visibility.scss */
+  .hidden-for-xsmall small-only, .hidden-for-xsmall small-up, .hidden-for-xsmall small, .hidden-for-xsmall small-down, .visible-for-medium-only, .visible-for-medium-up, .visible-for-medium, .hidden-for-medium-down, .visible-for-large-only, .visible-for-large-up, .visible-for-large, .hidden-for-large-down, .visible-for-xlarge-only, .visible-for-xlarge-up, .visible-for-xlarge, .hidden-for-xlarge-down, .visible-for-xxlarge-only, .visible-for-xxlarge-up, .visible-for-xxlarge, .hidden-for-xxlarge-down {
     clip: rect(1px, 1px, 1px, 1px);
     height: 1px;
     overflow: hidden;
@@ -8661,45 +8830,45 @@ ul.off-canvas-list li a:active {
     width: 1px;
   }
 
-  /* line 259, ../scss/components/_visibility.scss */
-  table.show-for-small-only, table.show-for-small-up, table.show-for-small, table.show-for-small-down, table.hide-for-medium-only, table.hide-for-medium-up, table.hide-for-medium, table.show-for-medium-down, table.hide-for-large-only, table.hide-for-large-up, table.hide-for-large, table.show-for-large-down, table.hide-for-xlarge-only, table.hide-for-xlarge-up, table.hide-for-xlarge, table.show-for-xlarge-down, table.hide-for-xxlarge-only, table.hide-for-xxlarge-up, table.hide-for-xxlarge, table.show-for-xxlarge-down {
+  /* line 261, ../scss/components/_visibility.scss */
+  table.show-for-xsmall small-only, table.show-for-xsmall small-up, table.show-for-xsmall small, table.show-for-xsmall small-down, table.hide-for-medium-only, table.hide-for-medium-up, table.hide-for-medium, table.show-for-medium-down, table.hide-for-large-only, table.hide-for-large-up, table.hide-for-large, table.show-for-large-down, table.hide-for-xlarge-only, table.hide-for-xlarge-up, table.hide-for-xlarge, table.show-for-xlarge-down, table.hide-for-xxlarge-only, table.hide-for-xxlarge-up, table.hide-for-xxlarge, table.show-for-xxlarge-down {
     display: table !important;
   }
 
-  /* line 262, ../scss/components/_visibility.scss */
-  thead.show-for-small-only, thead.show-for-small-up, thead.show-for-small, thead.show-for-small-down, thead.hide-for-medium-only, thead.hide-for-medium-up, thead.hide-for-medium, thead.show-for-medium-down, thead.hide-for-large-only, thead.hide-for-large-up, thead.hide-for-large, thead.show-for-large-down, thead.hide-for-xlarge-only, thead.hide-for-xlarge-up, thead.hide-for-xlarge, thead.show-for-xlarge-down, thead.hide-for-xxlarge-only, thead.hide-for-xxlarge-up, thead.hide-for-xxlarge, thead.show-for-xxlarge-down {
+  /* line 264, ../scss/components/_visibility.scss */
+  thead.show-for-xsmall small-only, thead.show-for-xsmall small-up, thead.show-for-xsmall small, thead.show-for-xsmall small-down, thead.hide-for-medium-only, thead.hide-for-medium-up, thead.hide-for-medium, thead.show-for-medium-down, thead.hide-for-large-only, thead.hide-for-large-up, thead.hide-for-large, thead.show-for-large-down, thead.hide-for-xlarge-only, thead.hide-for-xlarge-up, thead.hide-for-xlarge, thead.show-for-xlarge-down, thead.hide-for-xxlarge-only, thead.hide-for-xxlarge-up, thead.hide-for-xxlarge, thead.show-for-xxlarge-down {
     display: table-header-group !important;
   }
 
-  /* line 265, ../scss/components/_visibility.scss */
-  tbody.show-for-small-only, tbody.show-for-small-up, tbody.show-for-small, tbody.show-for-small-down, tbody.hide-for-medium-only, tbody.hide-for-medium-up, tbody.hide-for-medium, tbody.show-for-medium-down, tbody.hide-for-large-only, tbody.hide-for-large-up, tbody.hide-for-large, tbody.show-for-large-down, tbody.hide-for-xlarge-only, tbody.hide-for-xlarge-up, tbody.hide-for-xlarge, tbody.show-for-xlarge-down, tbody.hide-for-xxlarge-only, tbody.hide-for-xxlarge-up, tbody.hide-for-xxlarge, tbody.show-for-xxlarge-down {
+  /* line 267, ../scss/components/_visibility.scss */
+  tbody.show-for-xsmall small-only, tbody.show-for-xsmall small-up, tbody.show-for-xsmall small, tbody.show-for-xsmall small-down, tbody.hide-for-medium-only, tbody.hide-for-medium-up, tbody.hide-for-medium, tbody.show-for-medium-down, tbody.hide-for-large-only, tbody.hide-for-large-up, tbody.hide-for-large, tbody.show-for-large-down, tbody.hide-for-xlarge-only, tbody.hide-for-xlarge-up, tbody.hide-for-xlarge, tbody.show-for-xlarge-down, tbody.hide-for-xxlarge-only, tbody.hide-for-xxlarge-up, tbody.hide-for-xxlarge, tbody.show-for-xxlarge-down {
     display: table-row-group !important;
   }
 
-  /* line 268, ../scss/components/_visibility.scss */
-  tr.show-for-small-only, tr.show-for-small-up, tr.show-for-small, tr.show-for-small-down, tr.hide-for-medium-only, tr.hide-for-medium-up, tr.hide-for-medium, tr.show-for-medium-down, tr.hide-for-large-only, tr.hide-for-large-up, tr.hide-for-large, tr.show-for-large-down, tr.hide-for-xlarge-only, tr.hide-for-xlarge-up, tr.hide-for-xlarge, tr.show-for-xlarge-down, tr.hide-for-xxlarge-only, tr.hide-for-xxlarge-up, tr.hide-for-xxlarge, tr.show-for-xxlarge-down {
+  /* line 270, ../scss/components/_visibility.scss */
+  tr.show-for-xsmall small-only, tr.show-for-xsmall small-up, tr.show-for-xsmall small, tr.show-for-xsmall small-down, tr.hide-for-medium-only, tr.hide-for-medium-up, tr.hide-for-medium, tr.show-for-medium-down, tr.hide-for-large-only, tr.hide-for-large-up, tr.hide-for-large, tr.show-for-large-down, tr.hide-for-xlarge-only, tr.hide-for-xlarge-up, tr.hide-for-xlarge, tr.show-for-xlarge-down, tr.hide-for-xxlarge-only, tr.hide-for-xxlarge-up, tr.hide-for-xxlarge, tr.show-for-xxlarge-down {
     display: table-row;
   }
 
-  /* line 271, ../scss/components/_visibility.scss */
-  th.show-for-small-only, td.show-for-small-only, th.show-for-small-up, td.show-for-small-up, th.show-for-small, td.show-for-small, th.show-for-small-down, td.show-for-small-down, th.hide-for-medium-only, td.hide-for-medium-only, th.hide-for-medium-up, td.hide-for-medium-up, th.hide-for-medium, td.hide-for-medium, th.show-for-medium-down, td.show-for-medium-down, th.hide-for-large-only, td.hide-for-large-only, th.hide-for-large-up, td.hide-for-large-up, th.hide-for-large, td.hide-for-large, th.show-for-large-down, td.show-for-large-down, th.hide-for-xlarge-only, td.hide-for-xlarge-only, th.hide-for-xlarge-up, td.hide-for-xlarge-up, th.hide-for-xlarge, td.hide-for-xlarge, th.show-for-xlarge-down, td.show-for-xlarge-down, th.hide-for-xxlarge-only, td.hide-for-xxlarge-only, th.hide-for-xxlarge-up, td.hide-for-xxlarge-up, th.hide-for-xxlarge, td.hide-for-xxlarge, th.show-for-xxlarge-down, td.show-for-xxlarge-down {
+  /* line 273, ../scss/components/_visibility.scss */
+  th.show-for-xsmall small-only, td.show-for-xsmall small-only, th.show-for-xsmall small-up, td.show-for-xsmall small-up, th.show-for-xsmall small, td.show-for-xsmall small, th.show-for-xsmall small-down, td.show-for-xsmall small-down, th.hide-for-medium-only, td.hide-for-medium-only, th.hide-for-medium-up, td.hide-for-medium-up, th.hide-for-medium, td.hide-for-medium, th.show-for-medium-down, td.show-for-medium-down, th.hide-for-large-only, td.hide-for-large-only, th.hide-for-large-up, td.hide-for-large-up, th.hide-for-large, td.hide-for-large, th.show-for-large-down, td.show-for-large-down, th.hide-for-xlarge-only, td.hide-for-xlarge-only, th.hide-for-xlarge-up, td.hide-for-xlarge-up, th.hide-for-xlarge, td.hide-for-xlarge, th.show-for-xlarge-down, td.show-for-xlarge-down, th.hide-for-xxlarge-only, td.hide-for-xxlarge-only, th.hide-for-xxlarge-up, td.hide-for-xxlarge-up, th.hide-for-xxlarge, td.hide-for-xxlarge, th.show-for-xxlarge-down, td.show-for-xxlarge-down {
     display: table-cell !important;
   }
 }
 /* medium displays */
-@media only screen and (min-width: 40.0625em) {
-  /* line 244, ../scss/components/_visibility.scss */
-  .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .show-for-medium-only, .show-for-medium-up, .show-for-medium, .show-for-medium-down, .hide-for-large-only, .hide-for-large-up, .hide-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xlarge, .show-for-xlarge-down, .hide-for-xxlarge-only, .hide-for-xxlarge-up, .hide-for-xxlarge, .show-for-xxlarge-down {
+@media only screen and (min-width: 30.0625em) {
+  /* line 246, ../scss/components/_visibility.scss */
+  .hide-for-xsmall small-only, .show-for-xsmall small-up, .hide-for-xsmall small, .hide-for-xsmall small-down, .show-for-medium-only, .show-for-medium-up, .show-for-medium, .show-for-medium-down, .hide-for-large-only, .hide-for-large-up, .hide-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xlarge, .show-for-xlarge-down, .hide-for-xxlarge-only, .hide-for-xxlarge-up, .hide-for-xxlarge, .show-for-xxlarge-down {
     display: inherit !important;
   }
 
-  /* line 247, ../scss/components/_visibility.scss */
-  .show-for-small-only, .hide-for-small-up, .show-for-small, .show-for-small-down, .hide-for-medium-only, .hide-for-medium-up, .hide-for-medium, .hide-for-medium-down, .show-for-large-only, .show-for-large-up, .show-for-large, .hide-for-large-down, .show-for-xlarge-only, .show-for-xlarge-up, .show-for-xlarge, .hide-for-xlarge-down, .show-for-xxlarge-only, .show-for-xxlarge-up, .show-for-xxlarge, .hide-for-xxlarge-down {
+  /* line 249, ../scss/components/_visibility.scss */
+  .show-for-xsmall small-only, .hide-for-xsmall small-up, .show-for-xsmall small, .show-for-xsmall small-down, .hide-for-medium-only, .hide-for-medium-up, .hide-for-medium, .hide-for-medium-down, .show-for-large-only, .show-for-large-up, .show-for-large, .hide-for-large-down, .show-for-xlarge-only, .show-for-xlarge-up, .show-for-xlarge, .hide-for-xlarge-down, .show-for-xxlarge-only, .show-for-xxlarge-up, .show-for-xxlarge, .hide-for-xxlarge-down {
     display: none !important;
   }
 
-  /* line 251, ../scss/components/_visibility.scss */
-  .hidden-for-small-only, .visible-for-small-up, .hidden-for-small, .hidden-for-small-down, .visible-for-medium-only, .visible-for-medium-up, .visible-for-medium, .visible-for-medium-down, .hidden-for-large-only, .hidden-for-large-up, .hidden-for-large, .visible-for-large-down, .hidden-for-xlarge-only, .hidden-for-xlarge-up, .hidden-for-xlarge, .visible-for-xlarge-down, .hidden-for-xxlarge-only, .hidden-for-xxlarge-up, .hidden-for-xxlarge, .visible-for-xxlarge-down {
+  /* line 253, ../scss/components/_visibility.scss */
+  .hidden-for-xsmall small-only, .visible-for-xsmall small-up, .hidden-for-xsmall small, .hidden-for-xsmall small-down, .visible-for-medium-only, .visible-for-medium-up, .visible-for-medium, .visible-for-medium-down, .hidden-for-large-only, .hidden-for-large-up, .hidden-for-large, .visible-for-large-down, .hidden-for-xlarge-only, .hidden-for-xlarge-up, .hidden-for-xlarge, .visible-for-xlarge-down, .hidden-for-xxlarge-only, .hidden-for-xxlarge-up, .hidden-for-xxlarge, .visible-for-xxlarge-down {
     position: static !important;
     height: auto;
     width: auto;
@@ -8707,8 +8876,8 @@ ul.off-canvas-list li a:active {
     clip: auto;
   }
 
-  /* line 254, ../scss/components/_visibility.scss */
-  .visible-for-small-only, .hidden-for-small-up, .visible-for-small, .visible-for-small-down, .hidden-for-medium-only, .hidden-for-medium-up, .hidden-for-medium, .hidden-for-medium-down, .visible-for-large-only, .visible-for-large-up, .visible-for-large, .hidden-for-large-down, .visible-for-xlarge-only, .visible-for-xlarge-up, .visible-for-xlarge, .hidden-for-xlarge-down, .visible-for-xxlarge-only, .visible-for-xxlarge-up, .visible-for-xxlarge, .hidden-for-xxlarge-down {
+  /* line 256, ../scss/components/_visibility.scss */
+  .visible-for-xsmall small-only, .hidden-for-xsmall small-up, .visible-for-xsmall small, .visible-for-xsmall small-down, .hidden-for-medium-only, .hidden-for-medium-up, .hidden-for-medium, .hidden-for-medium-down, .visible-for-large-only, .visible-for-large-up, .visible-for-large, .hidden-for-large-down, .visible-for-xlarge-only, .visible-for-xlarge-up, .visible-for-xlarge, .hidden-for-xlarge-down, .visible-for-xxlarge-only, .visible-for-xxlarge-up, .visible-for-xxlarge, .hidden-for-xxlarge-down {
     clip: rect(1px, 1px, 1px, 1px);
     height: 1px;
     overflow: hidden;
@@ -8716,45 +8885,45 @@ ul.off-canvas-list li a:active {
     width: 1px;
   }
 
-  /* line 259, ../scss/components/_visibility.scss */
-  table.hide-for-small-only, table.show-for-small-up, table.hide-for-small, table.hide-for-small-down, table.show-for-medium-only, table.show-for-medium-up, table.show-for-medium, table.show-for-medium-down, table.hide-for-large-only, table.hide-for-large-up, table.hide-for-large, table.show-for-large-down, table.hide-for-xlarge-only, table.hide-for-xlarge-up, table.hide-for-xlarge, table.show-for-xlarge-down, table.hide-for-xxlarge-only, table.hide-for-xxlarge-up, table.hide-for-xxlarge, table.show-for-xxlarge-down {
+  /* line 261, ../scss/components/_visibility.scss */
+  table.hide-for-xsmall small-only, table.show-for-xsmall small-up, table.hide-for-xsmall small, table.hide-for-xsmall small-down, table.show-for-medium-only, table.show-for-medium-up, table.show-for-medium, table.show-for-medium-down, table.hide-for-large-only, table.hide-for-large-up, table.hide-for-large, table.show-for-large-down, table.hide-for-xlarge-only, table.hide-for-xlarge-up, table.hide-for-xlarge, table.show-for-xlarge-down, table.hide-for-xxlarge-only, table.hide-for-xxlarge-up, table.hide-for-xxlarge, table.show-for-xxlarge-down {
     display: table !important;
   }
 
-  /* line 262, ../scss/components/_visibility.scss */
-  thead.hide-for-small-only, thead.show-for-small-up, thead.hide-for-small, thead.hide-for-small-down, thead.show-for-medium-only, thead.show-for-medium-up, thead.show-for-medium, thead.show-for-medium-down, thead.hide-for-large-only, thead.hide-for-large-up, thead.hide-for-large, thead.show-for-large-down, thead.hide-for-xlarge-only, thead.hide-for-xlarge-up, thead.hide-for-xlarge, thead.show-for-xlarge-down, thead.hide-for-xxlarge-only, thead.hide-for-xxlarge-up, thead.hide-for-xxlarge, thead.show-for-xxlarge-down {
+  /* line 264, ../scss/components/_visibility.scss */
+  thead.hide-for-xsmall small-only, thead.show-for-xsmall small-up, thead.hide-for-xsmall small, thead.hide-for-xsmall small-down, thead.show-for-medium-only, thead.show-for-medium-up, thead.show-for-medium, thead.show-for-medium-down, thead.hide-for-large-only, thead.hide-for-large-up, thead.hide-for-large, thead.show-for-large-down, thead.hide-for-xlarge-only, thead.hide-for-xlarge-up, thead.hide-for-xlarge, thead.show-for-xlarge-down, thead.hide-for-xxlarge-only, thead.hide-for-xxlarge-up, thead.hide-for-xxlarge, thead.show-for-xxlarge-down {
     display: table-header-group !important;
   }
 
-  /* line 265, ../scss/components/_visibility.scss */
-  tbody.hide-for-small-only, tbody.show-for-small-up, tbody.hide-for-small, tbody.hide-for-small-down, tbody.show-for-medium-only, tbody.show-for-medium-up, tbody.show-for-medium, tbody.show-for-medium-down, tbody.hide-for-large-only, tbody.hide-for-large-up, tbody.hide-for-large, tbody.show-for-large-down, tbody.hide-for-xlarge-only, tbody.hide-for-xlarge-up, tbody.hide-for-xlarge, tbody.show-for-xlarge-down, tbody.hide-for-xxlarge-only, tbody.hide-for-xxlarge-up, tbody.hide-for-xxlarge, tbody.show-for-xxlarge-down {
+  /* line 267, ../scss/components/_visibility.scss */
+  tbody.hide-for-xsmall small-only, tbody.show-for-xsmall small-up, tbody.hide-for-xsmall small, tbody.hide-for-xsmall small-down, tbody.show-for-medium-only, tbody.show-for-medium-up, tbody.show-for-medium, tbody.show-for-medium-down, tbody.hide-for-large-only, tbody.hide-for-large-up, tbody.hide-for-large, tbody.show-for-large-down, tbody.hide-for-xlarge-only, tbody.hide-for-xlarge-up, tbody.hide-for-xlarge, tbody.show-for-xlarge-down, tbody.hide-for-xxlarge-only, tbody.hide-for-xxlarge-up, tbody.hide-for-xxlarge, tbody.show-for-xxlarge-down {
     display: table-row-group !important;
   }
 
-  /* line 268, ../scss/components/_visibility.scss */
-  tr.hide-for-small-only, tr.show-for-small-up, tr.hide-for-small, tr.hide-for-small-down, tr.show-for-medium-only, tr.show-for-medium-up, tr.show-for-medium, tr.show-for-medium-down, tr.hide-for-large-only, tr.hide-for-large-up, tr.hide-for-large, tr.show-for-large-down, tr.hide-for-xlarge-only, tr.hide-for-xlarge-up, tr.hide-for-xlarge, tr.show-for-xlarge-down, tr.hide-for-xxlarge-only, tr.hide-for-xxlarge-up, tr.hide-for-xxlarge, tr.show-for-xxlarge-down {
+  /* line 270, ../scss/components/_visibility.scss */
+  tr.hide-for-xsmall small-only, tr.show-for-xsmall small-up, tr.hide-for-xsmall small, tr.hide-for-xsmall small-down, tr.show-for-medium-only, tr.show-for-medium-up, tr.show-for-medium, tr.show-for-medium-down, tr.hide-for-large-only, tr.hide-for-large-up, tr.hide-for-large, tr.show-for-large-down, tr.hide-for-xlarge-only, tr.hide-for-xlarge-up, tr.hide-for-xlarge, tr.show-for-xlarge-down, tr.hide-for-xxlarge-only, tr.hide-for-xxlarge-up, tr.hide-for-xxlarge, tr.show-for-xxlarge-down {
     display: table-row;
   }
 
-  /* line 271, ../scss/components/_visibility.scss */
-  th.hide-for-small-only, td.hide-for-small-only, th.show-for-small-up, td.show-for-small-up, th.hide-for-small, td.hide-for-small, th.hide-for-small-down, td.hide-for-small-down, th.show-for-medium-only, td.show-for-medium-only, th.show-for-medium-up, td.show-for-medium-up, th.show-for-medium, td.show-for-medium, th.show-for-medium-down, td.show-for-medium-down, th.hide-for-large-only, td.hide-for-large-only, th.hide-for-large-up, td.hide-for-large-up, th.hide-for-large, td.hide-for-large, th.show-for-large-down, td.show-for-large-down, th.hide-for-xlarge-only, td.hide-for-xlarge-only, th.hide-for-xlarge-up, td.hide-for-xlarge-up, th.hide-for-xlarge, td.hide-for-xlarge, th.show-for-xlarge-down, td.show-for-xlarge-down, th.hide-for-xxlarge-only, td.hide-for-xxlarge-only, th.hide-for-xxlarge-up, td.hide-for-xxlarge-up, th.hide-for-xxlarge, td.hide-for-xxlarge, th.show-for-xxlarge-down, td.show-for-xxlarge-down {
+  /* line 273, ../scss/components/_visibility.scss */
+  th.hide-for-xsmall small-only, td.hide-for-xsmall small-only, th.show-for-xsmall small-up, td.show-for-xsmall small-up, th.hide-for-xsmall small, td.hide-for-xsmall small, th.hide-for-xsmall small-down, td.hide-for-xsmall small-down, th.show-for-medium-only, td.show-for-medium-only, th.show-for-medium-up, td.show-for-medium-up, th.show-for-medium, td.show-for-medium, th.show-for-medium-down, td.show-for-medium-down, th.hide-for-large-only, td.hide-for-large-only, th.hide-for-large-up, td.hide-for-large-up, th.hide-for-large, td.hide-for-large, th.show-for-large-down, td.show-for-large-down, th.hide-for-xlarge-only, td.hide-for-xlarge-only, th.hide-for-xlarge-up, td.hide-for-xlarge-up, th.hide-for-xlarge, td.hide-for-xlarge, th.show-for-xlarge-down, td.show-for-xlarge-down, th.hide-for-xxlarge-only, td.hide-for-xxlarge-only, th.hide-for-xxlarge-up, td.hide-for-xxlarge-up, th.hide-for-xxlarge, td.hide-for-xxlarge, th.show-for-xxlarge-down, td.show-for-xxlarge-down {
     display: table-cell !important;
   }
 }
 /* large displays */
-@media only screen and (min-width: 64.0625em) {
-  /* line 244, ../scss/components/_visibility.scss */
-  .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .show-for-large-only, .show-for-large-up, .show-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xlarge, .show-for-xlarge-down, .hide-for-xxlarge-only, .hide-for-xxlarge-up, .hide-for-xxlarge, .show-for-xxlarge-down {
+@media only screen and (min-width: 48.0625em) {
+  /* line 246, ../scss/components/_visibility.scss */
+  .hide-for-xsmall small-only, .show-for-xsmall small-up, .hide-for-xsmall small, .hide-for-xsmall small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .show-for-large-only, .show-for-large-up, .show-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xlarge, .show-for-xlarge-down, .hide-for-xxlarge-only, .hide-for-xxlarge-up, .hide-for-xxlarge, .show-for-xxlarge-down {
     display: inherit !important;
   }
 
-  /* line 247, ../scss/components/_visibility.scss */
-  .show-for-small-only, .hide-for-small-up, .show-for-small, .show-for-small-down, .show-for-medium-only, .hide-for-medium-up, .show-for-medium, .show-for-medium-down, .hide-for-large-only, .hide-for-large-up, .hide-for-large, .hide-for-large-down, .show-for-xlarge-only, .show-for-xlarge-up, .show-for-xlarge, .hide-for-xlarge-down, .show-for-xxlarge-only, .show-for-xxlarge-up, .show-for-xxlarge, .hide-for-xxlarge-down {
+  /* line 249, ../scss/components/_visibility.scss */
+  .show-for-xsmall small-only, .hide-for-xsmall small-up, .show-for-xsmall small, .show-for-xsmall small-down, .show-for-medium-only, .hide-for-medium-up, .show-for-medium, .show-for-medium-down, .hide-for-large-only, .hide-for-large-up, .hide-for-large, .hide-for-large-down, .show-for-xlarge-only, .show-for-xlarge-up, .show-for-xlarge, .hide-for-xlarge-down, .show-for-xxlarge-only, .show-for-xxlarge-up, .show-for-xxlarge, .hide-for-xxlarge-down {
     display: none !important;
   }
 
-  /* line 251, ../scss/components/_visibility.scss */
-  .hidden-for-small-only, .visible-for-small-up, .hidden-for-small, .hidden-for-small-down, .hidden-for-medium-only, .visible-for-medium-up, .hidden-for-medium, .hidden-for-medium-down, .visible-for-large-only, .visible-for-large-up, .visible-for-large, .visible-for-large-down, .hidden-for-xlarge-only, .hidden-for-xlarge-up, .hidden-for-xlarge, .visible-for-xlarge-down, .hidden-for-xxlarge-only, .hidden-for-xxlarge-up, .hidden-for-xxlarge, .visible-for-xxlarge-down {
+  /* line 253, ../scss/components/_visibility.scss */
+  .hidden-for-xsmall small-only, .visible-for-xsmall small-up, .hidden-for-xsmall small, .hidden-for-xsmall small-down, .hidden-for-medium-only, .visible-for-medium-up, .hidden-for-medium, .hidden-for-medium-down, .visible-for-large-only, .visible-for-large-up, .visible-for-large, .visible-for-large-down, .hidden-for-xlarge-only, .hidden-for-xlarge-up, .hidden-for-xlarge, .visible-for-xlarge-down, .hidden-for-xxlarge-only, .hidden-for-xxlarge-up, .hidden-for-xxlarge, .visible-for-xxlarge-down {
     position: static !important;
     height: auto;
     width: auto;
@@ -8762,8 +8931,8 @@ ul.off-canvas-list li a:active {
     clip: auto;
   }
 
-  /* line 254, ../scss/components/_visibility.scss */
-  .visible-for-small-only, .hidden-for-small-up, .visible-for-small, .visible-for-small-down, .visible-for-medium-only, .hidden-for-medium-up, .visible-for-medium, .visible-for-medium-down, .hidden-for-large-only, .hidden-for-large-up, .hidden-for-large, .hidden-for-large-down, .visible-for-xlarge-only, .visible-for-xlarge-up, .visible-for-xlarge, .hidden-for-xlarge-down, .visible-for-xxlarge-only, .visible-for-xxlarge-up, .visible-for-xxlarge, .hidden-for-xxlarge-down {
+  /* line 256, ../scss/components/_visibility.scss */
+  .visible-for-xsmall small-only, .hidden-for-xsmall small-up, .visible-for-xsmall small, .visible-for-xsmall small-down, .visible-for-medium-only, .hidden-for-medium-up, .visible-for-medium, .visible-for-medium-down, .hidden-for-large-only, .hidden-for-large-up, .hidden-for-large, .hidden-for-large-down, .visible-for-xlarge-only, .visible-for-xlarge-up, .visible-for-xlarge, .hidden-for-xlarge-down, .visible-for-xxlarge-only, .visible-for-xxlarge-up, .visible-for-xxlarge, .hidden-for-xxlarge-down {
     clip: rect(1px, 1px, 1px, 1px);
     height: 1px;
     overflow: hidden;
@@ -8771,45 +8940,45 @@ ul.off-canvas-list li a:active {
     width: 1px;
   }
 
-  /* line 259, ../scss/components/_visibility.scss */
-  table.hide-for-small-only, table.show-for-small-up, table.hide-for-small, table.hide-for-small-down, table.hide-for-medium-only, table.show-for-medium-up, table.hide-for-medium, table.hide-for-medium-down, table.show-for-large-only, table.show-for-large-up, table.show-for-large, table.show-for-large-down, table.hide-for-xlarge-only, table.hide-for-xlarge-up, table.hide-for-xlarge, table.show-for-xlarge-down, table.hide-for-xxlarge-only, table.hide-for-xxlarge-up, table.hide-for-xxlarge, table.show-for-xxlarge-down {
+  /* line 261, ../scss/components/_visibility.scss */
+  table.hide-for-xsmall small-only, table.show-for-xsmall small-up, table.hide-for-xsmall small, table.hide-for-xsmall small-down, table.hide-for-medium-only, table.show-for-medium-up, table.hide-for-medium, table.hide-for-medium-down, table.show-for-large-only, table.show-for-large-up, table.show-for-large, table.show-for-large-down, table.hide-for-xlarge-only, table.hide-for-xlarge-up, table.hide-for-xlarge, table.show-for-xlarge-down, table.hide-for-xxlarge-only, table.hide-for-xxlarge-up, table.hide-for-xxlarge, table.show-for-xxlarge-down {
     display: table !important;
   }
 
-  /* line 262, ../scss/components/_visibility.scss */
-  thead.hide-for-small-only, thead.show-for-small-up, thead.hide-for-small, thead.hide-for-small-down, thead.hide-for-medium-only, thead.show-for-medium-up, thead.hide-for-medium, thead.hide-for-medium-down, thead.show-for-large-only, thead.show-for-large-up, thead.show-for-large, thead.show-for-large-down, thead.hide-for-xlarge-only, thead.hide-for-xlarge-up, thead.hide-for-xlarge, thead.show-for-xlarge-down, thead.hide-for-xxlarge-only, thead.hide-for-xxlarge-up, thead.hide-for-xxlarge, thead.show-for-xxlarge-down {
+  /* line 264, ../scss/components/_visibility.scss */
+  thead.hide-for-xsmall small-only, thead.show-for-xsmall small-up, thead.hide-for-xsmall small, thead.hide-for-xsmall small-down, thead.hide-for-medium-only, thead.show-for-medium-up, thead.hide-for-medium, thead.hide-for-medium-down, thead.show-for-large-only, thead.show-for-large-up, thead.show-for-large, thead.show-for-large-down, thead.hide-for-xlarge-only, thead.hide-for-xlarge-up, thead.hide-for-xlarge, thead.show-for-xlarge-down, thead.hide-for-xxlarge-only, thead.hide-for-xxlarge-up, thead.hide-for-xxlarge, thead.show-for-xxlarge-down {
     display: table-header-group !important;
   }
 
-  /* line 265, ../scss/components/_visibility.scss */
-  tbody.hide-for-small-only, tbody.show-for-small-up, tbody.hide-for-small, tbody.hide-for-small-down, tbody.hide-for-medium-only, tbody.show-for-medium-up, tbody.hide-for-medium, tbody.hide-for-medium-down, tbody.show-for-large-only, tbody.show-for-large-up, tbody.show-for-large, tbody.show-for-large-down, tbody.hide-for-xlarge-only, tbody.hide-for-xlarge-up, tbody.hide-for-xlarge, tbody.show-for-xlarge-down, tbody.hide-for-xxlarge-only, tbody.hide-for-xxlarge-up, tbody.hide-for-xxlarge, tbody.show-for-xxlarge-down {
+  /* line 267, ../scss/components/_visibility.scss */
+  tbody.hide-for-xsmall small-only, tbody.show-for-xsmall small-up, tbody.hide-for-xsmall small, tbody.hide-for-xsmall small-down, tbody.hide-for-medium-only, tbody.show-for-medium-up, tbody.hide-for-medium, tbody.hide-for-medium-down, tbody.show-for-large-only, tbody.show-for-large-up, tbody.show-for-large, tbody.show-for-large-down, tbody.hide-for-xlarge-only, tbody.hide-for-xlarge-up, tbody.hide-for-xlarge, tbody.show-for-xlarge-down, tbody.hide-for-xxlarge-only, tbody.hide-for-xxlarge-up, tbody.hide-for-xxlarge, tbody.show-for-xxlarge-down {
     display: table-row-group !important;
   }
 
-  /* line 268, ../scss/components/_visibility.scss */
-  tr.hide-for-small-only, tr.show-for-small-up, tr.hide-for-small, tr.hide-for-small-down, tr.hide-for-medium-only, tr.show-for-medium-up, tr.hide-for-medium, tr.hide-for-medium-down, tr.show-for-large-only, tr.show-for-large-up, tr.show-for-large, tr.show-for-large-down, tr.hide-for-xlarge-only, tr.hide-for-xlarge-up, tr.hide-for-xlarge, tr.show-for-xlarge-down, tr.hide-for-xxlarge-only, tr.hide-for-xxlarge-up, tr.hide-for-xxlarge, tr.show-for-xxlarge-down {
+  /* line 270, ../scss/components/_visibility.scss */
+  tr.hide-for-xsmall small-only, tr.show-for-xsmall small-up, tr.hide-for-xsmall small, tr.hide-for-xsmall small-down, tr.hide-for-medium-only, tr.show-for-medium-up, tr.hide-for-medium, tr.hide-for-medium-down, tr.show-for-large-only, tr.show-for-large-up, tr.show-for-large, tr.show-for-large-down, tr.hide-for-xlarge-only, tr.hide-for-xlarge-up, tr.hide-for-xlarge, tr.show-for-xlarge-down, tr.hide-for-xxlarge-only, tr.hide-for-xxlarge-up, tr.hide-for-xxlarge, tr.show-for-xxlarge-down {
     display: table-row;
   }
 
-  /* line 271, ../scss/components/_visibility.scss */
-  th.hide-for-small-only, td.hide-for-small-only, th.show-for-small-up, td.show-for-small-up, th.hide-for-small, td.hide-for-small, th.hide-for-small-down, td.hide-for-small-down, th.hide-for-medium-only, td.hide-for-medium-only, th.show-for-medium-up, td.show-for-medium-up, th.hide-for-medium, td.hide-for-medium, th.hide-for-medium-down, td.hide-for-medium-down, th.show-for-large-only, td.show-for-large-only, th.show-for-large-up, td.show-for-large-up, th.show-for-large, td.show-for-large, th.show-for-large-down, td.show-for-large-down, th.hide-for-xlarge-only, td.hide-for-xlarge-only, th.hide-for-xlarge-up, td.hide-for-xlarge-up, th.hide-for-xlarge, td.hide-for-xlarge, th.show-for-xlarge-down, td.show-for-xlarge-down, th.hide-for-xxlarge-only, td.hide-for-xxlarge-only, th.hide-for-xxlarge-up, td.hide-for-xxlarge-up, th.hide-for-xxlarge, td.hide-for-xxlarge, th.show-for-xxlarge-down, td.show-for-xxlarge-down {
+  /* line 273, ../scss/components/_visibility.scss */
+  th.hide-for-xsmall small-only, td.hide-for-xsmall small-only, th.show-for-xsmall small-up, td.show-for-xsmall small-up, th.hide-for-xsmall small, td.hide-for-xsmall small, th.hide-for-xsmall small-down, td.hide-for-xsmall small-down, th.hide-for-medium-only, td.hide-for-medium-only, th.show-for-medium-up, td.show-for-medium-up, th.hide-for-medium, td.hide-for-medium, th.hide-for-medium-down, td.hide-for-medium-down, th.show-for-large-only, td.show-for-large-only, th.show-for-large-up, td.show-for-large-up, th.show-for-large, td.show-for-large, th.show-for-large-down, td.show-for-large-down, th.hide-for-xlarge-only, td.hide-for-xlarge-only, th.hide-for-xlarge-up, td.hide-for-xlarge-up, th.hide-for-xlarge, td.hide-for-xlarge, th.show-for-xlarge-down, td.show-for-xlarge-down, th.hide-for-xxlarge-only, td.hide-for-xxlarge-only, th.hide-for-xxlarge-up, td.hide-for-xxlarge-up, th.hide-for-xxlarge, td.hide-for-xxlarge, th.show-for-xxlarge-down, td.show-for-xxlarge-down {
     display: table-cell !important;
   }
 }
 /* xlarge displays */
-@media only screen and (min-width: 90.0625em) {
-  /* line 244, ../scss/components/_visibility.scss */
-  .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .hide-for-large-only, .show-for-large-up, .hide-for-large, .hide-for-large-down, .show-for-xlarge-only, .show-for-xlarge-up, .show-for-xlarge, .show-for-xlarge-down, .hide-for-xxlarge-only, .hide-for-xxlarge-up, .hide-for-xxlarge, .show-for-xxlarge-down {
+@media only screen and (min-width: 64.0625em) {
+  /* line 246, ../scss/components/_visibility.scss */
+  .hide-for-xsmall small-only, .show-for-xsmall small-up, .hide-for-xsmall small, .hide-for-xsmall small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .hide-for-large-only, .show-for-large-up, .hide-for-large, .hide-for-large-down, .show-for-xlarge-only, .show-for-xlarge-up, .show-for-xlarge, .show-for-xlarge-down, .hide-for-xxlarge-only, .hide-for-xxlarge-up, .hide-for-xxlarge, .show-for-xxlarge-down {
     display: inherit !important;
   }
 
-  /* line 247, ../scss/components/_visibility.scss */
-  .show-for-small-only, .hide-for-small-up, .show-for-small, .show-for-small-down, .show-for-medium-only, .hide-for-medium-up, .show-for-medium, .show-for-medium-down, .show-for-large-only, .hide-for-large-up, .show-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xlarge, .hide-for-xlarge-down, .show-for-xxlarge-only, .show-for-xxlarge-up, .show-for-xxlarge, .hide-for-xxlarge-down {
+  /* line 249, ../scss/components/_visibility.scss */
+  .show-for-xsmall small-only, .hide-for-xsmall small-up, .show-for-xsmall small, .show-for-xsmall small-down, .show-for-medium-only, .hide-for-medium-up, .show-for-medium, .show-for-medium-down, .show-for-large-only, .hide-for-large-up, .show-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xlarge, .hide-for-xlarge-down, .show-for-xxlarge-only, .show-for-xxlarge-up, .show-for-xxlarge, .hide-for-xxlarge-down {
     display: none !important;
   }
 
-  /* line 251, ../scss/components/_visibility.scss */
-  .hidden-for-small-only, .visible-for-small-up, .hidden-for-small, .hidden-for-small-down, .hidden-for-medium-only, .visible-for-medium-up, .hidden-for-medium, .hidden-for-medium-down, .hidden-for-large-only, .visible-for-large-up, .hidden-for-large, .hidden-for-large-down, .visible-for-xlarge-only, .visible-for-xlarge-up, .visible-for-xlarge, .visible-for-xlarge-down, .hidden-for-xxlarge-only, .hidden-for-xxlarge-up, .hidden-for-xxlarge, .visible-for-xxlarge-down {
+  /* line 253, ../scss/components/_visibility.scss */
+  .hidden-for-xsmall small-only, .visible-for-xsmall small-up, .hidden-for-xsmall small, .hidden-for-xsmall small-down, .hidden-for-medium-only, .visible-for-medium-up, .hidden-for-medium, .hidden-for-medium-down, .hidden-for-large-only, .visible-for-large-up, .hidden-for-large, .hidden-for-large-down, .visible-for-xlarge-only, .visible-for-xlarge-up, .visible-for-xlarge, .visible-for-xlarge-down, .hidden-for-xxlarge-only, .hidden-for-xxlarge-up, .hidden-for-xxlarge, .visible-for-xxlarge-down {
     position: static !important;
     height: auto;
     width: auto;
@@ -8817,8 +8986,8 @@ ul.off-canvas-list li a:active {
     clip: auto;
   }
 
-  /* line 254, ../scss/components/_visibility.scss */
-  .visible-for-small-only, .hidden-for-small-up, .visible-for-small, .visible-for-small-down, .visible-for-medium-only, .hidden-for-medium-up, .visible-for-medium, .visible-for-medium-down, .visible-for-large-only, .hidden-for-large-up, .visible-for-large, .visible-for-large-down, .hidden-for-xlarge-only, .hidden-for-xlarge-up, .hidden-for-xlarge, .hidden-for-xlarge-down, .visible-for-xxlarge-only, .visible-for-xxlarge-up, .visible-for-xxlarge, .hidden-for-xxlarge-down {
+  /* line 256, ../scss/components/_visibility.scss */
+  .visible-for-xsmall small-only, .hidden-for-xsmall small-up, .visible-for-xsmall small, .visible-for-xsmall small-down, .visible-for-medium-only, .hidden-for-medium-up, .visible-for-medium, .visible-for-medium-down, .visible-for-large-only, .hidden-for-large-up, .visible-for-large, .visible-for-large-down, .hidden-for-xlarge-only, .hidden-for-xlarge-up, .hidden-for-xlarge, .hidden-for-xlarge-down, .visible-for-xxlarge-only, .visible-for-xxlarge-up, .visible-for-xxlarge, .hidden-for-xxlarge-down {
     clip: rect(1px, 1px, 1px, 1px);
     height: 1px;
     overflow: hidden;
@@ -8826,45 +8995,45 @@ ul.off-canvas-list li a:active {
     width: 1px;
   }
 
-  /* line 259, ../scss/components/_visibility.scss */
-  table.hide-for-small-only, table.show-for-small-up, table.hide-for-small, table.hide-for-small-down, table.hide-for-medium-only, table.show-for-medium-up, table.hide-for-medium, table.hide-for-medium-down, table.hide-for-large-only, table.show-for-large-up, table.hide-for-large, table.hide-for-large-down, table.show-for-xlarge-only, table.show-for-xlarge-up, table.show-for-xlarge, table.show-for-xlarge-down, table.hide-for-xxlarge-only, table.hide-for-xxlarge-up, table.hide-for-xxlarge, table.show-for-xxlarge-down {
+  /* line 261, ../scss/components/_visibility.scss */
+  table.hide-for-xsmall small-only, table.show-for-xsmall small-up, table.hide-for-xsmall small, table.hide-for-xsmall small-down, table.hide-for-medium-only, table.show-for-medium-up, table.hide-for-medium, table.hide-for-medium-down, table.hide-for-large-only, table.show-for-large-up, table.hide-for-large, table.hide-for-large-down, table.show-for-xlarge-only, table.show-for-xlarge-up, table.show-for-xlarge, table.show-for-xlarge-down, table.hide-for-xxlarge-only, table.hide-for-xxlarge-up, table.hide-for-xxlarge, table.show-for-xxlarge-down {
     display: table !important;
   }
 
-  /* line 262, ../scss/components/_visibility.scss */
-  thead.hide-for-small-only, thead.show-for-small-up, thead.hide-for-small, thead.hide-for-small-down, thead.hide-for-medium-only, thead.show-for-medium-up, thead.hide-for-medium, thead.hide-for-medium-down, thead.hide-for-large-only, thead.show-for-large-up, thead.hide-for-large, thead.hide-for-large-down, thead.show-for-xlarge-only, thead.show-for-xlarge-up, thead.show-for-xlarge, thead.show-for-xlarge-down, thead.hide-for-xxlarge-only, thead.hide-for-xxlarge-up, thead.hide-for-xxlarge, thead.show-for-xxlarge-down {
+  /* line 264, ../scss/components/_visibility.scss */
+  thead.hide-for-xsmall small-only, thead.show-for-xsmall small-up, thead.hide-for-xsmall small, thead.hide-for-xsmall small-down, thead.hide-for-medium-only, thead.show-for-medium-up, thead.hide-for-medium, thead.hide-for-medium-down, thead.hide-for-large-only, thead.show-for-large-up, thead.hide-for-large, thead.hide-for-large-down, thead.show-for-xlarge-only, thead.show-for-xlarge-up, thead.show-for-xlarge, thead.show-for-xlarge-down, thead.hide-for-xxlarge-only, thead.hide-for-xxlarge-up, thead.hide-for-xxlarge, thead.show-for-xxlarge-down {
     display: table-header-group !important;
   }
 
-  /* line 265, ../scss/components/_visibility.scss */
-  tbody.hide-for-small-only, tbody.show-for-small-up, tbody.hide-for-small, tbody.hide-for-small-down, tbody.hide-for-medium-only, tbody.show-for-medium-up, tbody.hide-for-medium, tbody.hide-for-medium-down, tbody.hide-for-large-only, tbody.show-for-large-up, tbody.hide-for-large, tbody.hide-for-large-down, tbody.show-for-xlarge-only, tbody.show-for-xlarge-up, tbody.show-for-xlarge, tbody.show-for-xlarge-down, tbody.hide-for-xxlarge-only, tbody.hide-for-xxlarge-up, tbody.hide-for-xxlarge, tbody.show-for-xxlarge-down {
+  /* line 267, ../scss/components/_visibility.scss */
+  tbody.hide-for-xsmall small-only, tbody.show-for-xsmall small-up, tbody.hide-for-xsmall small, tbody.hide-for-xsmall small-down, tbody.hide-for-medium-only, tbody.show-for-medium-up, tbody.hide-for-medium, tbody.hide-for-medium-down, tbody.hide-for-large-only, tbody.show-for-large-up, tbody.hide-for-large, tbody.hide-for-large-down, tbody.show-for-xlarge-only, tbody.show-for-xlarge-up, tbody.show-for-xlarge, tbody.show-for-xlarge-down, tbody.hide-for-xxlarge-only, tbody.hide-for-xxlarge-up, tbody.hide-for-xxlarge, tbody.show-for-xxlarge-down {
     display: table-row-group !important;
   }
 
-  /* line 268, ../scss/components/_visibility.scss */
-  tr.hide-for-small-only, tr.show-for-small-up, tr.hide-for-small, tr.hide-for-small-down, tr.hide-for-medium-only, tr.show-for-medium-up, tr.hide-for-medium, tr.hide-for-medium-down, tr.hide-for-large-only, tr.show-for-large-up, tr.hide-for-large, tr.hide-for-large-down, tr.show-for-xlarge-only, tr.show-for-xlarge-up, tr.show-for-xlarge, tr.show-for-xlarge-down, tr.hide-for-xxlarge-only, tr.hide-for-xxlarge-up, tr.hide-for-xxlarge, tr.show-for-xxlarge-down {
+  /* line 270, ../scss/components/_visibility.scss */
+  tr.hide-for-xsmall small-only, tr.show-for-xsmall small-up, tr.hide-for-xsmall small, tr.hide-for-xsmall small-down, tr.hide-for-medium-only, tr.show-for-medium-up, tr.hide-for-medium, tr.hide-for-medium-down, tr.hide-for-large-only, tr.show-for-large-up, tr.hide-for-large, tr.hide-for-large-down, tr.show-for-xlarge-only, tr.show-for-xlarge-up, tr.show-for-xlarge, tr.show-for-xlarge-down, tr.hide-for-xxlarge-only, tr.hide-for-xxlarge-up, tr.hide-for-xxlarge, tr.show-for-xxlarge-down {
     display: table-row;
   }
 
-  /* line 271, ../scss/components/_visibility.scss */
-  th.hide-for-small-only, td.hide-for-small-only, th.show-for-small-up, td.show-for-small-up, th.hide-for-small, td.hide-for-small, th.hide-for-small-down, td.hide-for-small-down, th.hide-for-medium-only, td.hide-for-medium-only, th.show-for-medium-up, td.show-for-medium-up, th.hide-for-medium, td.hide-for-medium, th.hide-for-medium-down, td.hide-for-medium-down, th.hide-for-large-only, td.hide-for-large-only, th.show-for-large-up, td.show-for-large-up, th.hide-for-large, td.hide-for-large, th.hide-for-large-down, td.hide-for-large-down, th.show-for-xlarge-only, td.show-for-xlarge-only, th.show-for-xlarge-up, td.show-for-xlarge-up, th.show-for-xlarge, td.show-for-xlarge, th.show-for-xlarge-down, td.show-for-xlarge-down, th.hide-for-xxlarge-only, td.hide-for-xxlarge-only, th.hide-for-xxlarge-up, td.hide-for-xxlarge-up, th.hide-for-xxlarge, td.hide-for-xxlarge, th.show-for-xxlarge-down, td.show-for-xxlarge-down {
+  /* line 273, ../scss/components/_visibility.scss */
+  th.hide-for-xsmall small-only, td.hide-for-xsmall small-only, th.show-for-xsmall small-up, td.show-for-xsmall small-up, th.hide-for-xsmall small, td.hide-for-xsmall small, th.hide-for-xsmall small-down, td.hide-for-xsmall small-down, th.hide-for-medium-only, td.hide-for-medium-only, th.show-for-medium-up, td.show-for-medium-up, th.hide-for-medium, td.hide-for-medium, th.hide-for-medium-down, td.hide-for-medium-down, th.hide-for-large-only, td.hide-for-large-only, th.show-for-large-up, td.show-for-large-up, th.hide-for-large, td.hide-for-large, th.hide-for-large-down, td.hide-for-large-down, th.show-for-xlarge-only, td.show-for-xlarge-only, th.show-for-xlarge-up, td.show-for-xlarge-up, th.show-for-xlarge, td.show-for-xlarge, th.show-for-xlarge-down, td.show-for-xlarge-down, th.hide-for-xxlarge-only, td.hide-for-xxlarge-only, th.hide-for-xxlarge-up, td.hide-for-xxlarge-up, th.hide-for-xxlarge, td.hide-for-xxlarge, th.show-for-xxlarge-down, td.show-for-xxlarge-down {
     display: table-cell !important;
   }
 }
 /* xxlarge displays */
-@media only screen and (min-width: 120.0625em) {
-  /* line 244, ../scss/components/_visibility.scss */
-  .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .hide-for-large-only, .show-for-large-up, .hide-for-large, .hide-for-large-down, .hide-for-xlarge-only, .show-for-xlarge-up, .hide-for-xlarge, .hide-for-xlarge-down, .show-for-xxlarge-only, .show-for-xxlarge-up, .show-for-xxlarge, .show-for-xxlarge-down {
+@media only screen and (min-width: 90.0625em) {
+  /* line 246, ../scss/components/_visibility.scss */
+  .hide-for-xsmall small-only, .show-for-xsmall small-up, .hide-for-xsmall small, .hide-for-xsmall small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .hide-for-large-only, .show-for-large-up, .hide-for-large, .hide-for-large-down, .hide-for-xlarge-only, .show-for-xlarge-up, .hide-for-xlarge, .hide-for-xlarge-down, .show-for-xxlarge-only, .show-for-xxlarge-up, .show-for-xxlarge, .show-for-xxlarge-down {
     display: inherit !important;
   }
 
-  /* line 247, ../scss/components/_visibility.scss */
-  .show-for-small-only, .hide-for-small-up, .show-for-small, .show-for-small-down, .show-for-medium-only, .hide-for-medium-up, .show-for-medium, .show-for-medium-down, .show-for-large-only, .hide-for-large-up, .show-for-large, .show-for-large-down, .show-for-xlarge-only, .hide-for-xlarge-up, .show-for-xlarge, .show-for-xlarge-down, .hide-for-xxlarge-only, .hide-for-xxlarge-up, .hide-for-xxlarge, .hide-for-xxlarge-down {
+  /* line 249, ../scss/components/_visibility.scss */
+  .show-for-xsmall small-only, .hide-for-xsmall small-up, .show-for-xsmall small, .show-for-xsmall small-down, .show-for-medium-only, .hide-for-medium-up, .show-for-medium, .show-for-medium-down, .show-for-large-only, .hide-for-large-up, .show-for-large, .show-for-large-down, .show-for-xlarge-only, .hide-for-xlarge-up, .show-for-xlarge, .show-for-xlarge-down, .hide-for-xxlarge-only, .hide-for-xxlarge-up, .hide-for-xxlarge, .hide-for-xxlarge-down {
     display: none !important;
   }
 
-  /* line 251, ../scss/components/_visibility.scss */
-  .hidden-for-small-only, .visible-for-small-up, .hidden-for-small, .hidden-for-small-down, .hidden-for-medium-only, .visible-for-medium-up, .hidden-for-medium, .hidden-for-medium-down, .hidden-for-large-only, .visible-for-large-up, .hidden-for-large, .hidden-for-large-down, .hidden-for-xlarge-only, .visible-for-xlarge-up, .hidden-for-xlarge, .hidden-for-xlarge-down, .visible-for-xxlarge-only, .visible-for-xxlarge-up, .visible-for-xxlarge, .visible-for-xxlarge-down {
+  /* line 253, ../scss/components/_visibility.scss */
+  .hidden-for-xsmall small-only, .visible-for-xsmall small-up, .hidden-for-xsmall small, .hidden-for-xsmall small-down, .hidden-for-medium-only, .visible-for-medium-up, .hidden-for-medium, .hidden-for-medium-down, .hidden-for-large-only, .visible-for-large-up, .hidden-for-large, .hidden-for-large-down, .hidden-for-xlarge-only, .visible-for-xlarge-up, .hidden-for-xlarge, .hidden-for-xlarge-down, .visible-for-xxlarge-only, .visible-for-xxlarge-up, .visible-for-xxlarge, .visible-for-xxlarge-down {
     position: static !important;
     height: auto;
     width: auto;
@@ -8872,8 +9041,8 @@ ul.off-canvas-list li a:active {
     clip: auto;
   }
 
-  /* line 254, ../scss/components/_visibility.scss */
-  .visible-for-small-only, .hidden-for-small-up, .visible-for-small, .visible-for-small-down, .visible-for-medium-only, .hidden-for-medium-up, .visible-for-medium, .visible-for-medium-down, .visible-for-large-only, .hidden-for-large-up, .visible-for-large, .visible-for-large-down, .visible-for-xlarge-only, .hidden-for-xlarge-up, .visible-for-xlarge, .visible-for-xlarge-down, .hidden-for-xxlarge-only, .hidden-for-xxlarge-up, .hidden-for-xxlarge, .hidden-for-xxlarge-down {
+  /* line 256, ../scss/components/_visibility.scss */
+  .visible-for-xsmall small-only, .hidden-for-xsmall small-up, .visible-for-xsmall small, .visible-for-xsmall small-down, .visible-for-medium-only, .hidden-for-medium-up, .visible-for-medium, .visible-for-medium-down, .visible-for-large-only, .hidden-for-large-up, .visible-for-large, .visible-for-large-down, .visible-for-xlarge-only, .hidden-for-xlarge-up, .visible-for-xlarge, .visible-for-xlarge-down, .hidden-for-xxlarge-only, .hidden-for-xxlarge-up, .hidden-for-xxlarge, .hidden-for-xxlarge-down {
     clip: rect(1px, 1px, 1px, 1px);
     height: 1px;
     overflow: hidden;
@@ -8881,66 +9050,66 @@ ul.off-canvas-list li a:active {
     width: 1px;
   }
 
-  /* line 259, ../scss/components/_visibility.scss */
-  table.hide-for-small-only, table.show-for-small-up, table.hide-for-small, table.hide-for-small-down, table.hide-for-medium-only, table.show-for-medium-up, table.hide-for-medium, table.hide-for-medium-down, table.hide-for-large-only, table.show-for-large-up, table.hide-for-large, table.hide-for-large-down, table.hide-for-xlarge-only, table.show-for-xlarge-up, table.hide-for-xlarge, table.hide-for-xlarge-down, table.show-for-xxlarge-only, table.show-for-xxlarge-up, table.show-for-xxlarge, table.show-for-xxlarge-down {
+  /* line 261, ../scss/components/_visibility.scss */
+  table.hide-for-xsmall small-only, table.show-for-xsmall small-up, table.hide-for-xsmall small, table.hide-for-xsmall small-down, table.hide-for-medium-only, table.show-for-medium-up, table.hide-for-medium, table.hide-for-medium-down, table.hide-for-large-only, table.show-for-large-up, table.hide-for-large, table.hide-for-large-down, table.hide-for-xlarge-only, table.show-for-xlarge-up, table.hide-for-xlarge, table.hide-for-xlarge-down, table.show-for-xxlarge-only, table.show-for-xxlarge-up, table.show-for-xxlarge, table.show-for-xxlarge-down {
     display: table !important;
   }
 
-  /* line 262, ../scss/components/_visibility.scss */
-  thead.hide-for-small-only, thead.show-for-small-up, thead.hide-for-small, thead.hide-for-small-down, thead.hide-for-medium-only, thead.show-for-medium-up, thead.hide-for-medium, thead.hide-for-medium-down, thead.hide-for-large-only, thead.show-for-large-up, thead.hide-for-large, thead.hide-for-large-down, thead.hide-for-xlarge-only, thead.show-for-xlarge-up, thead.hide-for-xlarge, thead.hide-for-xlarge-down, thead.show-for-xxlarge-only, thead.show-for-xxlarge-up, thead.show-for-xxlarge, thead.show-for-xxlarge-down {
+  /* line 264, ../scss/components/_visibility.scss */
+  thead.hide-for-xsmall small-only, thead.show-for-xsmall small-up, thead.hide-for-xsmall small, thead.hide-for-xsmall small-down, thead.hide-for-medium-only, thead.show-for-medium-up, thead.hide-for-medium, thead.hide-for-medium-down, thead.hide-for-large-only, thead.show-for-large-up, thead.hide-for-large, thead.hide-for-large-down, thead.hide-for-xlarge-only, thead.show-for-xlarge-up, thead.hide-for-xlarge, thead.hide-for-xlarge-down, thead.show-for-xxlarge-only, thead.show-for-xxlarge-up, thead.show-for-xxlarge, thead.show-for-xxlarge-down {
     display: table-header-group !important;
   }
 
-  /* line 265, ../scss/components/_visibility.scss */
-  tbody.hide-for-small-only, tbody.show-for-small-up, tbody.hide-for-small, tbody.hide-for-small-down, tbody.hide-for-medium-only, tbody.show-for-medium-up, tbody.hide-for-medium, tbody.hide-for-medium-down, tbody.hide-for-large-only, tbody.show-for-large-up, tbody.hide-for-large, tbody.hide-for-large-down, tbody.hide-for-xlarge-only, tbody.show-for-xlarge-up, tbody.hide-for-xlarge, tbody.hide-for-xlarge-down, tbody.show-for-xxlarge-only, tbody.show-for-xxlarge-up, tbody.show-for-xxlarge, tbody.show-for-xxlarge-down {
+  /* line 267, ../scss/components/_visibility.scss */
+  tbody.hide-for-xsmall small-only, tbody.show-for-xsmall small-up, tbody.hide-for-xsmall small, tbody.hide-for-xsmall small-down, tbody.hide-for-medium-only, tbody.show-for-medium-up, tbody.hide-for-medium, tbody.hide-for-medium-down, tbody.hide-for-large-only, tbody.show-for-large-up, tbody.hide-for-large, tbody.hide-for-large-down, tbody.hide-for-xlarge-only, tbody.show-for-xlarge-up, tbody.hide-for-xlarge, tbody.hide-for-xlarge-down, tbody.show-for-xxlarge-only, tbody.show-for-xxlarge-up, tbody.show-for-xxlarge, tbody.show-for-xxlarge-down {
     display: table-row-group !important;
   }
 
-  /* line 268, ../scss/components/_visibility.scss */
-  tr.hide-for-small-only, tr.show-for-small-up, tr.hide-for-small, tr.hide-for-small-down, tr.hide-for-medium-only, tr.show-for-medium-up, tr.hide-for-medium, tr.hide-for-medium-down, tr.hide-for-large-only, tr.show-for-large-up, tr.hide-for-large, tr.hide-for-large-down, tr.hide-for-xlarge-only, tr.show-for-xlarge-up, tr.hide-for-xlarge, tr.hide-for-xlarge-down, tr.show-for-xxlarge-only, tr.show-for-xxlarge-up, tr.show-for-xxlarge, tr.show-for-xxlarge-down {
+  /* line 270, ../scss/components/_visibility.scss */
+  tr.hide-for-xsmall small-only, tr.show-for-xsmall small-up, tr.hide-for-xsmall small, tr.hide-for-xsmall small-down, tr.hide-for-medium-only, tr.show-for-medium-up, tr.hide-for-medium, tr.hide-for-medium-down, tr.hide-for-large-only, tr.show-for-large-up, tr.hide-for-large, tr.hide-for-large-down, tr.hide-for-xlarge-only, tr.show-for-xlarge-up, tr.hide-for-xlarge, tr.hide-for-xlarge-down, tr.show-for-xxlarge-only, tr.show-for-xxlarge-up, tr.show-for-xxlarge, tr.show-for-xxlarge-down {
     display: table-row;
   }
 
-  /* line 271, ../scss/components/_visibility.scss */
-  th.hide-for-small-only, td.hide-for-small-only, th.show-for-small-up, td.show-for-small-up, th.hide-for-small, td.hide-for-small, th.hide-for-small-down, td.hide-for-small-down, th.hide-for-medium-only, td.hide-for-medium-only, th.show-for-medium-up, td.show-for-medium-up, th.hide-for-medium, td.hide-for-medium, th.hide-for-medium-down, td.hide-for-medium-down, th.hide-for-large-only, td.hide-for-large-only, th.show-for-large-up, td.show-for-large-up, th.hide-for-large, td.hide-for-large, th.hide-for-large-down, td.hide-for-large-down, th.hide-for-xlarge-only, td.hide-for-xlarge-only, th.show-for-xlarge-up, td.show-for-xlarge-up, th.hide-for-xlarge, td.hide-for-xlarge, th.hide-for-xlarge-down, td.hide-for-xlarge-down, th.show-for-xxlarge-only, td.show-for-xxlarge-only, th.show-for-xxlarge-up, td.show-for-xxlarge-up, th.show-for-xxlarge, td.show-for-xxlarge, th.show-for-xxlarge-down, td.show-for-xxlarge-down {
+  /* line 273, ../scss/components/_visibility.scss */
+  th.hide-for-xsmall small-only, td.hide-for-xsmall small-only, th.show-for-xsmall small-up, td.show-for-xsmall small-up, th.hide-for-xsmall small, td.hide-for-xsmall small, th.hide-for-xsmall small-down, td.hide-for-xsmall small-down, th.hide-for-medium-only, td.hide-for-medium-only, th.show-for-medium-up, td.show-for-medium-up, th.hide-for-medium, td.hide-for-medium, th.hide-for-medium-down, td.hide-for-medium-down, th.hide-for-large-only, td.hide-for-large-only, th.show-for-large-up, td.show-for-large-up, th.hide-for-large, td.hide-for-large, th.hide-for-large-down, td.hide-for-large-down, th.hide-for-xlarge-only, td.hide-for-xlarge-only, th.show-for-xlarge-up, td.show-for-xlarge-up, th.hide-for-xlarge, td.hide-for-xlarge, th.hide-for-xlarge-down, td.hide-for-xlarge-down, th.show-for-xxlarge-only, td.show-for-xxlarge-only, th.show-for-xxlarge-up, td.show-for-xxlarge-up, th.show-for-xxlarge, td.show-for-xxlarge, th.show-for-xxlarge-down, td.show-for-xxlarge-down {
     display: table-cell !important;
   }
 }
 /* Orientation targeting */
-/* line 285, ../scss/components/_visibility.scss */
+/* line 287, ../scss/components/_visibility.scss */
 .show-for-landscape,
 .hide-for-portrait {
   display: inherit !important;
 }
 
-/* line 287, ../scss/components/_visibility.scss */
+/* line 289, ../scss/components/_visibility.scss */
 .hide-for-landscape,
 .show-for-portrait {
   display: none !important;
 }
 
 /* Specific visibility for tables */
-/* line 292, ../scss/components/_visibility.scss */
+/* line 294, ../scss/components/_visibility.scss */
 table.hide-for-landscape, table.show-for-portrait {
   display: table !important;
 }
 
-/* line 296, ../scss/components/_visibility.scss */
+/* line 298, ../scss/components/_visibility.scss */
 thead.hide-for-landscape, thead.show-for-portrait {
   display: table-header-group !important;
 }
 
-/* line 300, ../scss/components/_visibility.scss */
+/* line 302, ../scss/components/_visibility.scss */
 tbody.hide-for-landscape, tbody.show-for-portrait {
   display: table-row-group !important;
 }
 
-/* line 304, ../scss/components/_visibility.scss */
+/* line 306, ../scss/components/_visibility.scss */
 tr.hide-for-landscape, tr.show-for-portrait {
   display: table-row !important;
 }
 
-/* line 309, ../scss/components/_visibility.scss */
+/* line 311, ../scss/components/_visibility.scss */
 td.hide-for-landscape, td.show-for-portrait,
 th.hide-for-landscape,
 th.show-for-portrait {
@@ -8948,40 +9117,40 @@ th.show-for-portrait {
 }
 
 @media only screen and (orientation: landscape) {
-  /* line 314, ../scss/components/_visibility.scss */
+  /* line 316, ../scss/components/_visibility.scss */
   .show-for-landscape,
   .hide-for-portrait {
     display: inherit !important;
   }
 
-  /* line 316, ../scss/components/_visibility.scss */
+  /* line 318, ../scss/components/_visibility.scss */
   .hide-for-landscape,
   .show-for-portrait {
     display: none !important;
   }
 
   /* Specific visibility for tables */
-  /* line 321, ../scss/components/_visibility.scss */
+  /* line 323, ../scss/components/_visibility.scss */
   table.show-for-landscape, table.hide-for-portrait {
     display: table !important;
   }
 
-  /* line 325, ../scss/components/_visibility.scss */
+  /* line 327, ../scss/components/_visibility.scss */
   thead.show-for-landscape, thead.hide-for-portrait {
     display: table-header-group !important;
   }
 
-  /* line 329, ../scss/components/_visibility.scss */
+  /* line 331, ../scss/components/_visibility.scss */
   tbody.show-for-landscape, tbody.hide-for-portrait {
     display: table-row-group !important;
   }
 
-  /* line 333, ../scss/components/_visibility.scss */
+  /* line 335, ../scss/components/_visibility.scss */
   tr.show-for-landscape, tr.hide-for-portrait {
     display: table-row !important;
   }
 
-  /* line 338, ../scss/components/_visibility.scss */
+  /* line 340, ../scss/components/_visibility.scss */
   td.show-for-landscape, td.hide-for-portrait,
   th.show-for-landscape,
   th.hide-for-portrait {
@@ -8989,40 +9158,40 @@ th.show-for-portrait {
   }
 }
 @media only screen and (orientation: portrait) {
-  /* line 344, ../scss/components/_visibility.scss */
+  /* line 346, ../scss/components/_visibility.scss */
   .show-for-portrait,
   .hide-for-landscape {
     display: inherit !important;
   }
 
-  /* line 346, ../scss/components/_visibility.scss */
+  /* line 348, ../scss/components/_visibility.scss */
   .hide-for-portrait,
   .show-for-landscape {
     display: none !important;
   }
 
   /* Specific visibility for tables */
-  /* line 351, ../scss/components/_visibility.scss */
+  /* line 353, ../scss/components/_visibility.scss */
   table.show-for-portrait, table.hide-for-landscape {
     display: table !important;
   }
 
-  /* line 355, ../scss/components/_visibility.scss */
+  /* line 357, ../scss/components/_visibility.scss */
   thead.show-for-portrait, thead.hide-for-landscape {
     display: table-header-group !important;
   }
 
-  /* line 359, ../scss/components/_visibility.scss */
+  /* line 361, ../scss/components/_visibility.scss */
   tbody.show-for-portrait, tbody.hide-for-landscape {
     display: table-row-group !important;
   }
 
-  /* line 363, ../scss/components/_visibility.scss */
+  /* line 365, ../scss/components/_visibility.scss */
   tr.show-for-portrait, tr.hide-for-landscape {
     display: table-row !important;
   }
 
-  /* line 368, ../scss/components/_visibility.scss */
+  /* line 370, ../scss/components/_visibility.scss */
   td.show-for-portrait, td.hide-for-landscape,
   th.show-for-portrait,
   th.hide-for-landscape {
@@ -9030,89 +9199,89 @@ th.show-for-portrait {
   }
 }
 /* Touch-enabled device targeting */
-/* line 374, ../scss/components/_visibility.scss */
+/* line 376, ../scss/components/_visibility.scss */
 .show-for-touch {
   display: none !important;
 }
 
-/* line 375, ../scss/components/_visibility.scss */
+/* line 377, ../scss/components/_visibility.scss */
 .hide-for-touch {
   display: inherit !important;
 }
 
-/* line 376, ../scss/components/_visibility.scss */
+/* line 378, ../scss/components/_visibility.scss */
 .touch .show-for-touch {
   display: inherit !important;
 }
 
-/* line 377, ../scss/components/_visibility.scss */
+/* line 379, ../scss/components/_visibility.scss */
 .touch .hide-for-touch {
   display: none !important;
 }
 
 /* Specific visibility for tables */
-/* line 380, ../scss/components/_visibility.scss */
+/* line 382, ../scss/components/_visibility.scss */
 table.hide-for-touch {
   display: table !important;
 }
 
-/* line 381, ../scss/components/_visibility.scss */
+/* line 383, ../scss/components/_visibility.scss */
 .touch table.show-for-touch {
   display: table !important;
 }
 
-/* line 382, ../scss/components/_visibility.scss */
+/* line 384, ../scss/components/_visibility.scss */
 thead.hide-for-touch {
   display: table-header-group !important;
 }
 
-/* line 383, ../scss/components/_visibility.scss */
+/* line 385, ../scss/components/_visibility.scss */
 .touch thead.show-for-touch {
   display: table-header-group !important;
 }
 
-/* line 384, ../scss/components/_visibility.scss */
+/* line 386, ../scss/components/_visibility.scss */
 tbody.hide-for-touch {
   display: table-row-group !important;
 }
 
-/* line 385, ../scss/components/_visibility.scss */
+/* line 387, ../scss/components/_visibility.scss */
 .touch tbody.show-for-touch {
   display: table-row-group !important;
 }
 
-/* line 386, ../scss/components/_visibility.scss */
+/* line 388, ../scss/components/_visibility.scss */
 tr.hide-for-touch {
   display: table-row !important;
 }
 
-/* line 387, ../scss/components/_visibility.scss */
+/* line 389, ../scss/components/_visibility.scss */
 .touch tr.show-for-touch {
   display: table-row !important;
 }
 
-/* line 388, ../scss/components/_visibility.scss */
+/* line 390, ../scss/components/_visibility.scss */
 td.hide-for-touch {
   display: table-cell !important;
 }
 
-/* line 389, ../scss/components/_visibility.scss */
+/* line 391, ../scss/components/_visibility.scss */
 .touch td.show-for-touch {
   display: table-cell !important;
 }
 
-/* line 390, ../scss/components/_visibility.scss */
+/* line 392, ../scss/components/_visibility.scss */
 th.hide-for-touch {
   display: table-cell !important;
 }
 
-/* line 391, ../scss/components/_visibility.scss */
+/* line 393, ../scss/components/_visibility.scss */
 .touch th.show-for-touch {
   display: table-cell !important;
 }
 
 /* Screen reader-specific classes */
-/* line 394, ../scss/components/_visibility.scss */
+/* line 396, ../scss/components/_visibility.scss */
 .show-for-sr {
   clip: rect(1px, 1px, 1px, 1px);
   height: 1px;
@@ -9121,7 +9290,7 @@ th.hide-for-touch {
   width: 1px;
 }
 
-/* line 397, ../scss/components/_visibility.scss */
+/* line 399, ../scss/components/_visibility.scss */
 .show-on-focus {
   clip: rect(1px, 1px, 1px, 1px);
   height: 1px;
@@ -9129,7 +9298,7 @@ th.hide-for-touch {
   position: absolute !important;
   width: 1px;
 }
-/* line 400, ../scss/components/_visibility.scss */
+/* line 402, ../scss/components/_visibility.scss */
 .show-on-focus:focus, .show-on-focus:active {
   position: static !important;
   height: auto;
@@ -9139,90 +9308,110 @@ th.hide-for-touch {
 }
 
 /* Print visibility */
-/* line 408, ../scss/components/_visibility.scss */
+/* line 410, ../scss/components/_visibility.scss */
 .print-only,
 .show-for-print {
   display: none !important;
 }
 
 @media print {
-  /* line 411, ../scss/components/_visibility.scss */
+  /* line 413, ../scss/components/_visibility.scss */
   .print-only,
   .show-for-print {
     display: block !important;
   }
 
-  /* line 413, ../scss/components/_visibility.scss */
+  /* line 415, ../scss/components/_visibility.scss */
   .hide-on-print,
   .hide-for-print {
     display: none !important;
   }
 
-  /* line 416, ../scss/components/_visibility.scss */
+  /* line 418, ../scss/components/_visibility.scss */
   table.show-for-print {
     display: table !important;
   }
 
-  /* line 417, ../scss/components/_visibility.scss */
+  /* line 419, ../scss/components/_visibility.scss */
   thead.show-for-print {
     display: table-header-group !important;
   }
 
-  /* line 418, ../scss/components/_visibility.scss */
+  /* line 420, ../scss/components/_visibility.scss */
   tbody.show-for-print {
     display: table-row-group !important;
   }
 
-  /* line 419, ../scss/components/_visibility.scss */
+  /* line 421, ../scss/components/_visibility.scss */
   tr.show-for-print {
     display: table-row !important;
   }
 
-  /* line 420, ../scss/components/_visibility.scss */
+  /* line 422, ../scss/components/_visibility.scss */
   td.show-for-print {
     display: table-cell !important;
   }
 
-  /* line 421, ../scss/components/_visibility.scss */
+  /* line 423, ../scss/components/_visibility.scss */
   th.show-for-print {
     display: table-cell !important;
   }
 }
 /* line 50, ../scss/app.scss */
 .global-nav {
-  height: 102px;
+  height: 42px;
   border-bottom: 1px solid #E3E3E3;
   color: #E3E3E3;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  line-height: 102px;
+  line-height: 42px;
   text-align: center;
 }
-
-/* line 69, ../scss/app.scss */
-.story-intro-1 {
-  height: 348px;
-  border-bottom: 1px solid #E3E3E3;
+@media only screen and (min-width: 48.0625em) {
+  /* line 50, ../scss/app.scss */
+  .global-nav {
+    height: 102px;
+    line-height: 102px;
+  }
 }
+
 /* line 73, ../scss/app.scss */
-.story-intro-1 .story-intro-1__copy {
-  height: 348px;
+.story-intro-1 {
+  display: inline-block;
+  border-bottom: 1px solid #E3E3E3;
   background-color: #F6F6F6;
-  padding: 90px 0;
 }
 /* line 78, ../scss/app.scss */
+.story-intro-1 .story-intro-1__copy {
+  position: absolute;
+  margin-top: 24px;
+}
+@media only screen and (min-width: 64.0625em) and (max-width: 90em) {
+  /* line 78, ../scss/app.scss */
+  .story-intro-1 .story-intro-1__copy {
+    margin-top: 42px;
+  }
+}
+/* line 85, ../scss/app.scss */
 .story-intro-1 .story-intro-1__copy .story-intro-1__copy--title {
   font-family: "Sofia Pro";
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 30px;
+  line-height: 30px;
   color: #323232;
   margin-bottom: 12px;
 }
-/* line 89, ../scss/app.scss */
+@media only screen and (min-width: 64.0625em) {
+  /* line 85, ../scss/app.scss */
+  .story-intro-1 .story-intro-1__copy .story-intro-1__copy--title {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+/* line 100, ../scss/app.scss */
 .story-intro-1 .story-intro-1__copy .story-intro-1__copy--dek {
   float: left;
   font-weight: 500;
@@ -9230,7 +9419,14 @@ th.hide-for-touch {
   color: #323232;
   line-height: 20px;
 }
-/* line 98, ../scss/app.scss */
+@media only screen and (min-width: 48.0625em) and (max-width: 64em) {
+  /* line 100, ../scss/app.scss */
+  .story-intro-1 .story-intro-1__copy .story-intro-1__copy--dek {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+/* line 113, ../scss/app.scss */
 .story-intro-1 .story-intro-1__image {
   height: 348px;
   font-size: 1px;
@@ -9238,13 +9434,70 @@ th.hide-for-touch {
   background-size: cover;
   background-position: center;
 }
-
-/* line 115, ../scss/app.scss */
-.product-grid {
-  margin-top: 60px;
+@media only screen and (max-width: 30em) {
+  /* line 113, ../scss/app.scss */
+  .story-intro-1 .story-intro-1__image {
+    height: 180px;
+  }
 }
-/* line 124, ../scss/app.scss */
+@media only screen and (min-width: 30.0625em) and (max-width: 48em) {
+  /* line 113, ../scss/app.scss */
+  .story-intro-1 .story-intro-1__image {
+    height: 432px;
+  }
+}
+
+/* line 130, ../scss/app.scss */
+.story-intro-1__copy--accordion > a {
+  font-family: "Sofia Pro";
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #323232;
+  text-align: center;
+  background: #FFFFFF;
+}
+/* line 139, ../scss/app.scss */
+.story-intro-1__copy--accordion > div {
+  text-align: center;
+}
+
+/* line 152, ../scss/app.scss */
+.product-grid {
+  margin-top: 12px;
+}
+@media only screen and (min-width: 30.0625em) and (max-width: 48em) {
+  /* line 152, ../scss/app.scss */
+  .product-grid {
+    margin-top: 6px;
+  }
+}
+@media only screen and (min-width: 48.0625em) {
+  /* line 152, ../scss/app.scss */
+  .product-grid {
+    margin-top: 42px;
+  }
+}
+/* line 167, ../scss/app.scss */
 .product-grid > div > ul > li > div {
   background-color: #F6F6F6;
-  height: 348px;
+  height: 158px;
+}
+@media only screen and (min-width: 30.0625em) and (max-width: 48em) {
+  /* line 167, ../scss/app.scss */
+  .product-grid > div > ul > li > div {
+    height: 255px;
+  }
+}
+@media only screen and (min-width: 48.0625em) and (max-width: 64em) {
+  /* line 167, ../scss/app.scss */
+  .product-grid > div > ul > li > div {
+    height: 340px;
+  }
+}
+@media only screen and (min-width: 64.0625em) {
+  /* line 167, ../scss/app.scss */
+  .product-grid > div > ul > li > div {
+    height: 460px;
+  }
 }

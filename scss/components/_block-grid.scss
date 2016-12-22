@@ -107,6 +107,9 @@ $block-grid-media-queries: true !default;
     [class*="block-grid-"] { @include block-grid; }
 
     @if $block-grid-media-queries {
+      @media #{$xsmall-up} {
+        @include block-grid-html-classes($size:xsmall, $include-spacing:false);
+      }    
       @media #{$small-up} {
         @include block-grid-html-classes($size:small, $include-spacing:false);
       }

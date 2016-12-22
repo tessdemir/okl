@@ -160,24 +160,35 @@ $body-font-color: $gray-2;
 // d. Media Query Ranges
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// $small-breakpoint:  em-calc(640);
-// $medium-breakpoint: em-calc(1024);
-// $large-breakpoint:  em-calc(1440);
-// $xlarge-breakpoint: em-calc(1920);
+// $small-breakpoint  : em-calc(640);
+// $medium-breakpoint : em-calc(1024);
+// $large-breakpoint  : em-calc(1440);
+// $xlarge-breakpoint : em-calc(1920);
+$xsmall-breakpoint    : em-calc(480);
+$small-breakpoint     : em-calc(768);
+$medium-breakpoint    : em-calc(1024);
+$large-breakpoint     : em-calc(1440);
 
-// $small-range:   (0, $small-breakpoint);
-// $medium-range:  ($small-breakpoint  + em-calc(1), $medium-breakpoint);
-// $large-range:   ($medium-breakpoint + em-calc(1), $large-breakpoint);
-// $xlarge-range:  ($large-breakpoint  + em-calc(1), $xlarge-breakpoint);
-// $xxlarge-range: ($xlarge-breakpoint + em-calc(1), em-calc(99999999));
+// $small-range   : (0, $small-breakpoint);
+// $medium-range  : ($small-breakpoint  - em-calc(1), $medium-breakpoint);
+// $large-range   : ($medium-breakpoint - em-calc(1), $large-breakpoint);
+// $xlarge-range  : ($large-breakpoint  - em-calc(1), $xlarge-breakpoint);
+// $xxlarge-range : ($xlarge-breakpoint - em-calc(1), em-calc(99999999));
+$xsmall-range     : (0, $xsmall-breakpoint);
+$small-range      : ($xsmall-breakpoint + em-calc(1), $small-breakpoint);
 
-// $screen: "only screen";
+$screen: "only screen";
 
 // $landscape: "#{$screen} and (orientation: landscape)";
 // $portrait: "#{$screen} and (orientation: portrait)";
 
+$xsmall-up: $screen;
+$xsmall-only: "#{$screen} and (max-width: #{upper-bound($xsmall-range)})";
+
 // $small-up: $screen;
 // $small-only: "#{$screen} and (max-width: #{upper-bound($small-range)})";
+$small-up: "#{$screen} and (min-width:#{lower-bound($small-range)})";
+$small-only: "#{$screen} and (min-width:#{lower-bound($small-range)}) and (max-width:#{upper-bound($small-range)})";
 
 // $medium-up: "#{$screen} and (min-width:#{lower-bound($medium-range)})";
 // $medium-only: "#{$screen} and (min-width:#{lower-bound($medium-range)}) and (max-width:#{upper-bound($medium-range)})";
@@ -349,6 +360,13 @@ $body-font-color: $gray-2;
 // $accordion-navigation-font-color: $jet;
 // $accordion-navigation-font-size: rem-calc(16);
 // $accordion-navigation-font-family: $body-font-family;
+$accordion-navigation-padding: rem-calc(12);
+$accordion-navigation-bg-color: $white;
+$accordion-navigation-hover-bg-color: none;
+$accordion-navigation-active-bg-color: none;
+$accordion-navigation-active-font-color: $primary-color;
+$accordion-navigation-font-color: $black-1;
+$accordion-navigation-font-size: rem-calc(16);
 
 // $accordion-content-padding: ($column-gutter/2);
 // $accordion-content-active-bg-color: $white;

@@ -85,7 +85,7 @@ body {
 /* line 502, ../scss/components/_global.scss */
 body {
   background: #fff;
-  color: #818386;
+  color: #323232;
   cursor: auto;
   font-family: "Proxima Nova", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
@@ -7554,7 +7554,7 @@ p {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.6;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
   text-rendering: optimizeLegibility;
 }
 /* line 245, ../scss/components/_type.scss */
@@ -7590,22 +7590,22 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 /* line 272, ../scss/components/_type.scss */
 h1 {
-  font-size: 2.125rem;
+  font-size: 2rem;
 }
 
 /* line 273, ../scss/components/_type.scss */
 h2 {
-  font-size: 1.6875rem;
+  font-size: 1.625rem;
 }
 
 /* line 274, ../scss/components/_type.scss */
 h3 {
-  font-size: 1.375rem;
+  font-size: 1.5625rem;
 }
 
 /* line 275, ../scss/components/_type.scss */
 h4 {
-  font-size: 1.125rem;
+  font-size: 1.1875rem;
 }
 
 /* line 276, ../scss/components/_type.scss */
@@ -7629,11 +7629,11 @@ h6 {
 
 /* line 281, ../scss/components/_type.scss */
 hr {
-  border: solid #DDDDDD;
+  border: solid #E3E3E3;
   border-width: 1px 0 0;
   clear: both;
   height: 0;
-  margin: 1.25rem 0 1.1875rem;
+  margin: 1.5rem 0 1.4375rem;
 }
 
 /* Helpful Typography Defaults */
@@ -7678,7 +7678,7 @@ dl {
   font-size: 1rem;
   line-height: 1.6;
   list-style-position: outside;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 
 /* line 329, ../scss/components/_type.scss */
@@ -7755,7 +7755,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #818386;
+  color: #323232;
   cursor: help;
 }
 
@@ -7771,7 +7771,7 @@ abbr[title] {
 /* Blockquotes */
 /* line 405, ../scss/components/_type.scss */
 blockquote {
-  margin: 0 0 1.25rem;
+  margin: 0 0 1.5rem;
   padding: 0.5625rem 1.25rem 0 1.1875rem;
   border-left: 1px solid #DDDDDD;
 }
@@ -7838,22 +7838,22 @@ blockquote p {
 
   /* line 462, ../scss/components/_type.scss */
   h1 {
-    font-size: 2.75rem;
+    font-size: 2.625rem;
   }
 
   /* line 463, ../scss/components/_type.scss */
   h2 {
-    font-size: 2.3125rem;
+    font-size: 2.25rem;
   }
 
   /* line 464, ../scss/components/_type.scss */
   h3 {
-    font-size: 1.6875rem;
+    font-size: 1.875rem;
   }
 
   /* line 465, ../scss/components/_type.scss */
   h4 {
-    font-size: 1.4375rem;
+    font-size: 1.5rem;
   }
 
   /* line 466, ../scss/components/_type.scss */
@@ -9378,76 +9378,71 @@ th.hide-for-touch {
 
 /* line 73, ../scss/app.scss */
 .story-intro-1 {
-  display: inline-block;
-  border-bottom: 1px solid #E3E3E3;
+  height: 348px;
   background-color: #F6F6F6;
+  border-bottom: 1px solid #E3E3E3;
 }
 /* line 78, ../scss/app.scss */
 .story-intro-1 .story-intro-1__copy {
-  position: absolute;
-  margin-top: 24px;
+  height: 348px;
+  padding: 5% 0;
 }
-@media only screen and (min-width: 64.0625em) and (max-width: 90em) {
+@media only screen and (min-width: 48.0625em) and (max-width: 64em) {
   /* line 78, ../scss/app.scss */
   .story-intro-1 .story-intro-1__copy {
-    margin-top: 42px;
+    padding: 6% 0;
   }
 }
 /* line 85, ../scss/app.scss */
-.story-intro-1 .story-intro-1__copy .story-intro-1__copy--title {
-  font-family: "Sofia Pro";
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 30px;
-  line-height: 30px;
-  color: #323232;
-  margin-bottom: 12px;
-}
-@media only screen and (min-width: 64.0625em) {
-  /* line 85, ../scss/app.scss */
-  .story-intro-1 .story-intro-1__copy .story-intro-1__copy--title {
-    font-size: 36px;
-    line-height: 36px;
-  }
-}
-/* line 100, ../scss/app.scss */
-.story-intro-1 .story-intro-1__copy .story-intro-1__copy--dek {
-  float: left;
-  font-weight: 500;
-  letter-spacing: 1px;
-  color: #323232;
-  line-height: 20px;
+.story-intro-1 .story-intro-1__copy .story-intro-1__copy-container {
+  padding: 6% 0;
 }
 @media only screen and (min-width: 48.0625em) and (max-width: 64em) {
-  /* line 100, ../scss/app.scss */
-  .story-intro-1 .story-intro-1__copy .story-intro-1__copy--dek {
-    font-size: 14px;
-    line-height: 18px;
+  /* line 85, ../scss/app.scss */
+  .story-intro-1 .story-intro-1__copy .story-intro-1__copy-container {
+    padding: 12% 0;
   }
 }
-/* line 113, ../scss/app.scss */
-.story-intro-1 .story-intro-1__image {
+/* line 91, ../scss/app.scss */
+.story-intro-1 .story-intro-1__copy .story-intro-1__copy-container .story-intro-1__title {
+  font-family: "Sofia Pro";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 36px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+@media only screen and (min-width: 48.0625em) and (max-width: 64em) {
+  /* line 91, ../scss/app.scss */
+  .story-intro-1 .story-intro-1__copy .story-intro-1__copy-container .story-intro-1__title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+/* line 105, ../scss/app.scss */
+.story-intro-1 .story-intro-1__copy .story-intro-1__copy-container .story-intro-1__dek {
+  font-family: "FreightDisp Pro", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #818386;
+}
+@media only screen and (min-width: 48.0625em) and (max-width: 64em) {
+  /* line 105, ../scss/app.scss */
+  .story-intro-1 .story-intro-1__copy .story-intro-1__copy-container .story-intro-1__dek {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+/* line 118, ../scss/app.scss */
+.story-intro-1 .story-intro-1__img {
   height: 348px;
-  font-size: 1px;
-  background-image: url("../assets/img__story-intro.jpg");
+  background-image: url(../assets/img__story-intro.jpg);
   background-size: cover;
   background-position: center;
 }
-@media only screen and (max-width: 30em) {
-  /* line 113, ../scss/app.scss */
-  .story-intro-1 .story-intro-1__image {
-    height: 180px;
-  }
-}
-@media only screen and (min-width: 30.0625em) and (max-width: 48em) {
-  /* line 113, ../scss/app.scss */
-  .story-intro-1 .story-intro-1__image {
-    height: 432px;
-  }
-}
 
-/* line 130, ../scss/app.scss */
+/* line 127, ../scss/app.scss */
 .story-intro-1__copy--accordion > a {
   font-family: "Sofia Pro";
   font-weight: 500;
@@ -9457,46 +9452,50 @@ th.hide-for-touch {
   text-align: center;
   background: #FFFFFF;
 }
-/* line 139, ../scss/app.scss */
+/* line 136, ../scss/app.scss */
 .story-intro-1__copy--accordion > div {
   text-align: center;
+  font-family: "FreightDisp Pro", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #818386;
 }
 
-/* line 152, ../scss/app.scss */
+/* line 153, ../scss/app.scss */
 .product-grid {
   margin-top: 12px;
 }
 @media only screen and (min-width: 30.0625em) and (max-width: 48em) {
-  /* line 152, ../scss/app.scss */
+  /* line 153, ../scss/app.scss */
   .product-grid {
-    margin-top: 6px;
+    margin-top: 30px;
   }
 }
 @media only screen and (min-width: 48.0625em) {
-  /* line 152, ../scss/app.scss */
+  /* line 153, ../scss/app.scss */
   .product-grid {
     margin-top: 42px;
   }
 }
-/* line 167, ../scss/app.scss */
+/* line 168, ../scss/app.scss */
 .product-grid > div > ul > li > div {
   background-color: #F6F6F6;
   height: 158px;
 }
 @media only screen and (min-width: 30.0625em) and (max-width: 48em) {
-  /* line 167, ../scss/app.scss */
+  /* line 168, ../scss/app.scss */
   .product-grid > div > ul > li > div {
     height: 255px;
   }
 }
 @media only screen and (min-width: 48.0625em) and (max-width: 64em) {
-  /* line 167, ../scss/app.scss */
+  /* line 168, ../scss/app.scss */
   .product-grid > div > ul > li > div {
     height: 340px;
   }
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 167, ../scss/app.scss */
+  /* line 168, ../scss/app.scss */
   .product-grid > div > ul > li > div {
     height: 460px;
   }

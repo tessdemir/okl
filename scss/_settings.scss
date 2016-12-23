@@ -134,7 +134,7 @@ $holiday-color    : #D0B25F;
  
 // We use these to control various global styles
 // $body-bg: $white;
-$body-font-color: $gray-2;
+$body-font-color: $black-1;
 // $body-font-family: $font-family-sans-serif;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
@@ -246,6 +246,11 @@ $small-only: "#{$screen} and (min-width:#{lower-bound($small-range)}) and (max-w
 // $h4-font-size: rem-calc(23);
 // $h5-font-size: rem-calc(18);
 // $h6-font-size: 1rem;
+$h1-font-size: rem-calc(42);
+$h2-font-size: rem-calc(36);
+$h3-font-size: rem-calc(30);
+$h4-font-size: rem-calc(24);
+$h5-font-size: rem-calc(18);
 
 // We use these to control header size reduction on small screens
 // $h1-font-reduction: rem-calc(10);
@@ -276,6 +281,7 @@ $small-only: "#{$screen} and (min-width:#{lower-bound($small-range)}) and (max-w
 // $paragraph-aside-line-height: 1.35;
 // $paragraph-aside-font-style: italic;
 // $paragraph-text-rendering: optimizeLegibility;
+$paragraph-margin-bottom: rem-calc(24);
 
 // We use these to style <code> tags
 // $code-color: $oil;
@@ -298,6 +304,8 @@ $small-only: "#{$screen} and (min-width:#{lower-bound($small-range)}) and (max-w
 // $hr-border-style: solid;
 // $hr-border-color: $gainsboro;
 // $hr-margin: rem-calc(20);
+$hr-border-color: $stroke-gray;
+$hr-margin: rem-calc(24);
 
 // We use these to style lists
 // $list-font-family: $paragraph-font-family;

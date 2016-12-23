@@ -71,63 +71,60 @@
 //-----------------------------------------------
 
 .story-intro-1 {
-    display: inline-block;
-    border-bottom: 1px solid $stroke-gray;
-    background-color: $background-gray;
-    
-    .story-intro-1__copy {
-        position: absolute;
-        margin-top: 24px;
-        @media #{$large-only}{
-            margin-top: 42px;
-        }
-        
-        .story-intro-1__copy--title {
-            font-family: "Sofia Pro";
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            font-size: 30px;
-            line-height: 30px;
-            color: $black-1;
-            margin-bottom: 12px;
-            @media #{$large-up}{
-                font-size: 36px;
-                line-height: 36px;
-            }
-        }
-        
-        .story-intro-1__copy--dek {
-            float: left;
-            font-weight: 500;
-            letter-spacing: 1px;
-            color: $black-1;
-            line-height: 20px;
-            @media #{$medium-only}{
-                font-size: 14px;
-                line-height: 18px;
-            }
-        }
-    }
-    
-    .story-intro-1__image {
-        height: 348px;
-        font-size: 1px;
-        background-image: url("../assets/img__story-intro.jpg");
-        background-size: cover;
-        background-position: center;
-        @media #{$xsmall-only}{
-            height: 180px;
-        }
-        @media #{$small-only}{
-            height: 432px;
-        }
-    }
-
+	height: 348px;
+	background-color: $background-gray;
+	border-bottom: 1px solid $stroke-gray;
+	
+	.story-intro-1__copy {
+		height: 348px;
+		padding: 5% 0;
+		@media #{$medium-only} {
+			padding: 6% 0;
+		}
+		
+		.story-intro-1__copy-container {
+			padding: 6% 0;
+			@media #{$medium-only} {
+				padding: 12% 0;
+			}
+		
+			.story-intro-1__title {
+				font-family: "Sofia Pro";
+				font-weight: 500;
+				font-size: 36px;
+				line-height: 36px;
+				margin-bottom: 12px;
+				text-transform: uppercase;
+				letter-spacing: 1.5px;
+				@media #{$medium-only} {
+					font-size: 30px;
+					line-height: 30px;
+				}
+			}
+			
+			.story-intro-1__dek {
+				font-family: $font-family-serif;
+				font-size: 18px;
+				line-height: 24px;
+				color: $gray-2;
+				@media #{$medium-only} {
+					font-size: 16px;
+					line-height: 20px;
+				}
+			}
+		}
+	}
+	
+	.story-intro-1__img{
+		height: 348px;
+		background-image: url(../assets/img__story-intro.jpg);
+    	background-size: cover;
+    	background-position: center;
+	}
 }
 
 .story-intro-1__copy--accordion {
-    >a {
+    > a {
         font-family: "Sofia Pro";
         font-weight: 500;
         text-transform: uppercase;
@@ -136,8 +133,12 @@
         text-align: center;
         background: $white;
     }
-    >div {
+    > div {
         text-align: center;
+		font-family: $font-family-serif;
+		font-size: 18px;
+		line-height: 24px;
+		color: $gray-2;
         
     }
 }
@@ -152,7 +153,7 @@
 .product-grid {
     margin-top: 12px;
     @media #{$small-only}{
-        margin-top: 6px;
+        margin-top: 30px;
     }
     @media #{$medium-up}{
         margin-top: 42px;

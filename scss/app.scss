@@ -67,13 +67,39 @@
 
 
 //-----------------------------------------------
-// STORY INTRO 1
+// STORY INTROS
 //-----------------------------------------------
 
-.story-intro-1 {
+.story-intro__container {
 	height: 348px;
-	background-color: $background-gray;
-	border-bottom: 1px solid $stroke-gray;
+}
+
+.story-intro__title {
+	font-family: "Sofia Pro";
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 36px;
+	margin-bottom: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	@media #{$medium-only} {
+		font-size: 30px;
+		line-height: 30px;
+	}
+}
+
+.story-intro__dek {
+	font-family: $font-family-serif;
+	font-size: 18px;
+	line-height: 24px;
+	@media #{$medium-only} {
+		font-size: 16px;
+		line-height: 20px;
+	}
+}
+
+.story-intro-1 {
+	background-color: #F2E7D4;
 	
 	.story-intro-1__copy {
 		height: 348px;
@@ -87,43 +113,18 @@
 			@media #{$medium-only} {
 				padding: 12% 0;
 			}
-		
-			.story-intro-1__title {
-				font-family: "Sofia Pro";
-				font-weight: 500;
-				font-size: 36px;
-				line-height: 36px;
-				margin-bottom: 12px;
-				text-transform: uppercase;
-				letter-spacing: 1.5px;
-				@media #{$medium-only} {
-					font-size: 30px;
-					line-height: 30px;
-				}
-			}
-			
-			.story-intro-1__dek {
-				font-family: $font-family-serif;
-				font-size: 18px;
-				line-height: 24px;
-				color: $gray-2;
-				@media #{$medium-only} {
-					font-size: 16px;
-					line-height: 20px;
-				}
-			}
 		}
 	}
 	
 	.story-intro-1__img{
 		height: 348px;
-		background-image: url(../assets/img__story-intro.jpg);
+		background-image: url(../assets/img__story-intro-1.jpg);
     	background-size: cover;
     	background-position: center;
 	}
 }
 
-.story-intro-1__copy--accordion {
+.story-intro__copy--accordion {
     > a {
         font-family: "Sofia Pro";
         font-weight: 500;
@@ -133,6 +134,7 @@
         text-align: center;
         background: $white;
     }
+	
     > div {
         text-align: center;
 		font-family: $font-family-serif;
@@ -142,6 +144,96 @@
         
     }
 }
+
+
+
+
+
+//-----------------------------------------------
+// STORY INTRO 2
+//-----------------------------------------------
+
+.story-intro-2 {
+	background-color: #fff7f6;
+	
+	.story-intro-2__copy {
+		height: 348px;
+		padding: 6% 0;
+		@media #{$large-up} {
+			padding: 3% 0;
+		}
+		
+		.story-intro-2__copy-container {
+			padding: 9% 0;
+			text-align: center;
+			@media #{$small-up} {
+				padding: 3% 0;
+			}
+			@media #{$large-up} {
+				padding: 3% 0;
+			}
+			
+			.story-intro-2__title {
+				font-size: 30px;
+				line-height: 30px;
+				letter-spacing: 1.5px;
+				color: #c38b84;
+				margin-bottom: 12px;
+				@media #{$small-up} {
+					font-size: 36px;
+					line-height: 36px;
+				}
+			}
+			
+			.story-intro-2__dek {
+				font-size: 18px;
+				line-height: 24px;
+				@media #{$small-up} {
+					font-size: 22px;
+					line-height: 30px;
+				}
+			}
+			
+		}
+	}
+}
+
+
+
+
+
+//-----------------------------------------------
+// STORY INTRO 3
+//-----------------------------------------------
+
+.story-intro-3 {
+	background-color: $black-1;
+	
+	.story-intro-3__copy {
+		padding: 5% 0;
+		color: $white;
+		@media #{$medium-only} {
+			padding: 6% 0;
+		}
+		
+		.story-intro-3__copy-container {
+			padding: 3% 0;
+			@media #{$medium-only} {
+				padding: 12% 0;
+			}
+		}
+	}
+
+	.story-intro-3__img{
+		height: 348px;
+		background-image: url(../assets/img__story-intro-3.jpg);
+    	background-size: cover;
+    	background-position: center;
+		line-height: 348px;
+		text-align: center;
+	}
+}
+
 
 
 

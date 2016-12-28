@@ -3230,6 +3230,366 @@ label.error {
   float: left;
 }
 
+@media only screen {
+  /* line 155, ../scss/components/_grid.scss */
+  .xsmall-push-0 {
+    position: relative;
+    left: 0;
+    right: auto;
+  }
+
+  /* line 158, ../scss/components/_grid.scss */
+  .xsmall-pull-0 {
+    position: relative;
+    right: 0;
+    left: auto;
+  }
+
+  /* line 155, ../scss/components/_grid.scss */
+  .xsmall-push-1 {
+    position: relative;
+    left: 8.33333%;
+    right: auto;
+  }
+
+  /* line 158, ../scss/components/_grid.scss */
+  .xsmall-pull-1 {
+    position: relative;
+    right: 8.33333%;
+    left: auto;
+  }
+
+  /* line 155, ../scss/components/_grid.scss */
+  .xsmall-push-2 {
+    position: relative;
+    left: 16.66667%;
+    right: auto;
+  }
+
+  /* line 158, ../scss/components/_grid.scss */
+  .xsmall-pull-2 {
+    position: relative;
+    right: 16.66667%;
+    left: auto;
+  }
+
+  /* line 155, ../scss/components/_grid.scss */
+  .xsmall-push-3 {
+    position: relative;
+    left: 25%;
+    right: auto;
+  }
+
+  /* line 158, ../scss/components/_grid.scss */
+  .xsmall-pull-3 {
+    position: relative;
+    right: 25%;
+    left: auto;
+  }
+
+  /* line 155, ../scss/components/_grid.scss */
+  .xsmall-push-4 {
+    position: relative;
+    left: 33.33333%;
+    right: auto;
+  }
+
+  /* line 158, ../scss/components/_grid.scss */
+  .xsmall-pull-4 {
+    position: relative;
+    right: 33.33333%;
+    left: auto;
+  }
+
+  /* line 155, ../scss/components/_grid.scss */
+  .xsmall-push-5 {
+    position: relative;
+    left: 41.66667%;
+    right: auto;
+  }
+
+  /* line 158, ../scss/components/_grid.scss */
+  .xsmall-pull-5 {
+    position: relative;
+    right: 41.66667%;
+    left: auto;
+  }
+
+  /* line 155, ../scss/components/_grid.scss */
+  .xsmall-push-6 {
+    position: relative;
+    left: 50%;
+    right: auto;
+  }
+
+  /* line 158, ../scss/components/_grid.scss */
+  .xsmall-pull-6 {
+    position: relative;
+    right: 50%;
+    left: auto;
+  }
+
+  /* line 155, ../scss/components/_grid.scss */
+  .xsmall-push-7 {
+    position: relative;
+    left: 58.33333%;
+    right: auto;
+  }
+
+  /* line 158, ../scss/components/_grid.scss */
+  .xsmall-pull-7 {
+    position: relative;
+    right: 58.33333%;
+    left: auto;
+  }
+
+  /* line 155, ../scss/components/_grid.scss */
+  .xsmall-push-8 {
+    position: relative;
+    left: 66.66667%;
+    right: auto;
+  }
+
+  /* line 158, ../scss/components/_grid.scss */
+  .xsmall-pull-8 {
+    position: relative;
+    right: 66.66667%;
+    left: auto;
+  }
+
+  /* line 155, ../scss/components/_grid.scss */
+  .xsmall-push-9 {
+    position: relative;
+    left: 75%;
+    right: auto;
+  }
+
+  /* line 158, ../scss/components/_grid.scss */
+  .xsmall-pull-9 {
+    position: relative;
+    right: 75%;
+    left: auto;
+  }
+
+  /* line 155, ../scss/components/_grid.scss */
+  .xsmall-push-10 {
+    position: relative;
+    left: 83.33333%;
+    right: auto;
+  }
+
+  /* line 158, ../scss/components/_grid.scss */
+  .xsmall-pull-10 {
+    position: relative;
+    right: 83.33333%;
+    left: auto;
+  }
+
+  /* line 155, ../scss/components/_grid.scss */
+  .xsmall-push-11 {
+    position: relative;
+    left: 91.66667%;
+    right: auto;
+  }
+
+  /* line 158, ../scss/components/_grid.scss */
+  .xsmall-pull-11 {
+    position: relative;
+    right: 91.66667%;
+    left: auto;
+  }
+
+  /* line 163, ../scss/components/_grid.scss */
+  .column,
+  .columns {
+    position: relative;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    float: left;
+  }
+
+  /* line 168, ../scss/components/_grid.scss */
+  .xsmall-1 {
+    width: 8.33333%;
+  }
+
+  /* line 168, ../scss/components/_grid.scss */
+  .xsmall-2 {
+    width: 16.66667%;
+  }
+
+  /* line 168, ../scss/components/_grid.scss */
+  .xsmall-3 {
+    width: 25%;
+  }
+
+  /* line 168, ../scss/components/_grid.scss */
+  .xsmall-4 {
+    width: 33.33333%;
+  }
+
+  /* line 168, ../scss/components/_grid.scss */
+  .xsmall-5 {
+    width: 41.66667%;
+  }
+
+  /* line 168, ../scss/components/_grid.scss */
+  .xsmall-6 {
+    width: 50%;
+  }
+
+  /* line 168, ../scss/components/_grid.scss */
+  .xsmall-7 {
+    width: 58.33333%;
+  }
+
+  /* line 168, ../scss/components/_grid.scss */
+  .xsmall-8 {
+    width: 66.66667%;
+  }
+
+  /* line 168, ../scss/components/_grid.scss */
+  .xsmall-9 {
+    width: 75%;
+  }
+
+  /* line 168, ../scss/components/_grid.scss */
+  .xsmall-10 {
+    width: 83.33333%;
+  }
+
+  /* line 168, ../scss/components/_grid.scss */
+  .xsmall-11 {
+    width: 91.66667%;
+  }
+
+  /* line 168, ../scss/components/_grid.scss */
+  .xsmall-12 {
+    width: 100%;
+  }
+
+  /* line 172, ../scss/components/_grid.scss */
+  .xsmall-offset-0 {
+    margin-left: 0 !important;
+  }
+
+  /* line 172, ../scss/components/_grid.scss */
+  .xsmall-offset-1 {
+    margin-left: 8.33333% !important;
+  }
+
+  /* line 172, ../scss/components/_grid.scss */
+  .xsmall-offset-2 {
+    margin-left: 16.66667% !important;
+  }
+
+  /* line 172, ../scss/components/_grid.scss */
+  .xsmall-offset-3 {
+    margin-left: 25% !important;
+  }
+
+  /* line 172, ../scss/components/_grid.scss */
+  .xsmall-offset-4 {
+    margin-left: 33.33333% !important;
+  }
+
+  /* line 172, ../scss/components/_grid.scss */
+  .xsmall-offset-5 {
+    margin-left: 41.66667% !important;
+  }
+
+  /* line 172, ../scss/components/_grid.scss */
+  .xsmall-offset-6 {
+    margin-left: 50% !important;
+  }
+
+  /* line 172, ../scss/components/_grid.scss */
+  .xsmall-offset-7 {
+    margin-left: 58.33333% !important;
+  }
+
+  /* line 172, ../scss/components/_grid.scss */
+  .xsmall-offset-8 {
+    margin-left: 66.66667% !important;
+  }
+
+  /* line 172, ../scss/components/_grid.scss */
+  .xsmall-offset-9 {
+    margin-left: 75% !important;
+  }
+
+  /* line 172, ../scss/components/_grid.scss */
+  .xsmall-offset-10 {
+    margin-left: 83.33333% !important;
+  }
+
+  /* line 172, ../scss/components/_grid.scss */
+  .xsmall-offset-11 {
+    margin-left: 91.66667% !important;
+  }
+
+  /* line 175, ../scss/components/_grid.scss */
+  .xsmall-reset-order {
+    float: left;
+    left: auto;
+    margin-left: 0;
+    margin-right: 0;
+    right: auto;
+  }
+
+  /* line 183, ../scss/components/_grid.scss */
+  .column.xsmall-centered,
+  .columns.xsmall-centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+
+  /* line 186, ../scss/components/_grid.scss */
+  .column.xsmall-uncentered,
+  .columns.xsmall-uncentered {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 194, ../scss/components/_grid.scss */
+  .column.xsmall-centered:last-child,
+  .columns.xsmall-centered:last-child {
+    float: none;
+  }
+
+  /* line 200, ../scss/components/_grid.scss */
+  .column.xsmall-uncentered:last-child,
+  .columns.xsmall-uncentered:last-child {
+    float: left;
+  }
+
+  /* line 205, ../scss/components/_grid.scss */
+  .column.xsmall-uncentered.opposite,
+  .columns.xsmall-uncentered.opposite {
+    float: right;
+  }
+
+  /* line 212, ../scss/components/_grid.scss */
+  .row.xsmall-collapse > .column,
+  .row.xsmall-collapse > .columns {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* line 215, ../scss/components/_grid.scss */
+  .row.xsmall-collapse .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* line 218, ../scss/components/_grid.scss */
+  .row.xsmall-uncollapse > .column,
+  .row.xsmall-uncollapse > .columns {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    float: left;
+  }
+}
 @media only screen and (min-width: 30.0625em) {
   /* line 155, ../scss/components/_grid.scss */
   .small-push-0 {
@@ -3588,6 +3948,174 @@ label.error {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
     float: left;
+  }
+
+  /* line 265, ../scss/components/_grid.scss */
+  .push-0 {
+    position: relative;
+    left: 0;
+    right: auto;
+  }
+
+  /* line 268, ../scss/components/_grid.scss */
+  .pull-0 {
+    position: relative;
+    right: 0;
+    left: auto;
+  }
+
+  /* line 265, ../scss/components/_grid.scss */
+  .push-1 {
+    position: relative;
+    left: 8.33333%;
+    right: auto;
+  }
+
+  /* line 268, ../scss/components/_grid.scss */
+  .pull-1 {
+    position: relative;
+    right: 8.33333%;
+    left: auto;
+  }
+
+  /* line 265, ../scss/components/_grid.scss */
+  .push-2 {
+    position: relative;
+    left: 16.66667%;
+    right: auto;
+  }
+
+  /* line 268, ../scss/components/_grid.scss */
+  .pull-2 {
+    position: relative;
+    right: 16.66667%;
+    left: auto;
+  }
+
+  /* line 265, ../scss/components/_grid.scss */
+  .push-3 {
+    position: relative;
+    left: 25%;
+    right: auto;
+  }
+
+  /* line 268, ../scss/components/_grid.scss */
+  .pull-3 {
+    position: relative;
+    right: 25%;
+    left: auto;
+  }
+
+  /* line 265, ../scss/components/_grid.scss */
+  .push-4 {
+    position: relative;
+    left: 33.33333%;
+    right: auto;
+  }
+
+  /* line 268, ../scss/components/_grid.scss */
+  .pull-4 {
+    position: relative;
+    right: 33.33333%;
+    left: auto;
+  }
+
+  /* line 265, ../scss/components/_grid.scss */
+  .push-5 {
+    position: relative;
+    left: 41.66667%;
+    right: auto;
+  }
+
+  /* line 268, ../scss/components/_grid.scss */
+  .pull-5 {
+    position: relative;
+    right: 41.66667%;
+    left: auto;
+  }
+
+  /* line 265, ../scss/components/_grid.scss */
+  .push-6 {
+    position: relative;
+    left: 50%;
+    right: auto;
+  }
+
+  /* line 268, ../scss/components/_grid.scss */
+  .pull-6 {
+    position: relative;
+    right: 50%;
+    left: auto;
+  }
+
+  /* line 265, ../scss/components/_grid.scss */
+  .push-7 {
+    position: relative;
+    left: 58.33333%;
+    right: auto;
+  }
+
+  /* line 268, ../scss/components/_grid.scss */
+  .pull-7 {
+    position: relative;
+    right: 58.33333%;
+    left: auto;
+  }
+
+  /* line 265, ../scss/components/_grid.scss */
+  .push-8 {
+    position: relative;
+    left: 66.66667%;
+    right: auto;
+  }
+
+  /* line 268, ../scss/components/_grid.scss */
+  .pull-8 {
+    position: relative;
+    right: 66.66667%;
+    left: auto;
+  }
+
+  /* line 265, ../scss/components/_grid.scss */
+  .push-9 {
+    position: relative;
+    left: 75%;
+    right: auto;
+  }
+
+  /* line 268, ../scss/components/_grid.scss */
+  .pull-9 {
+    position: relative;
+    right: 75%;
+    left: auto;
+  }
+
+  /* line 265, ../scss/components/_grid.scss */
+  .push-10 {
+    position: relative;
+    left: 83.33333%;
+    right: auto;
+  }
+
+  /* line 268, ../scss/components/_grid.scss */
+  .pull-10 {
+    position: relative;
+    right: 83.33333%;
+    left: auto;
+  }
+
+  /* line 265, ../scss/components/_grid.scss */
+  .push-11 {
+    position: relative;
+    left: 91.66667%;
+    right: auto;
+  }
+
+  /* line 268, ../scss/components/_grid.scss */
+  .pull-11 {
+    position: relative;
+    right: 91.66667%;
+    left: auto;
   }
 }
 @media only screen and (min-width: 48.0625em) {
@@ -3950,168 +4478,168 @@ label.error {
     float: left;
   }
 
-  /* line 264, ../scss/components/_grid.scss */
+  /* line 278, ../scss/components/_grid.scss */
   .push-0 {
     position: relative;
     left: 0;
     right: auto;
   }
 
-  /* line 267, ../scss/components/_grid.scss */
+  /* line 281, ../scss/components/_grid.scss */
   .pull-0 {
     position: relative;
     right: 0;
     left: auto;
   }
 
-  /* line 264, ../scss/components/_grid.scss */
+  /* line 278, ../scss/components/_grid.scss */
   .push-1 {
     position: relative;
     left: 8.33333%;
     right: auto;
   }
 
-  /* line 267, ../scss/components/_grid.scss */
+  /* line 281, ../scss/components/_grid.scss */
   .pull-1 {
     position: relative;
     right: 8.33333%;
     left: auto;
   }
 
-  /* line 264, ../scss/components/_grid.scss */
+  /* line 278, ../scss/components/_grid.scss */
   .push-2 {
     position: relative;
     left: 16.66667%;
     right: auto;
   }
 
-  /* line 267, ../scss/components/_grid.scss */
+  /* line 281, ../scss/components/_grid.scss */
   .pull-2 {
     position: relative;
     right: 16.66667%;
     left: auto;
   }
 
-  /* line 264, ../scss/components/_grid.scss */
+  /* line 278, ../scss/components/_grid.scss */
   .push-3 {
     position: relative;
     left: 25%;
     right: auto;
   }
 
-  /* line 267, ../scss/components/_grid.scss */
+  /* line 281, ../scss/components/_grid.scss */
   .pull-3 {
     position: relative;
     right: 25%;
     left: auto;
   }
 
-  /* line 264, ../scss/components/_grid.scss */
+  /* line 278, ../scss/components/_grid.scss */
   .push-4 {
     position: relative;
     left: 33.33333%;
     right: auto;
   }
 
-  /* line 267, ../scss/components/_grid.scss */
+  /* line 281, ../scss/components/_grid.scss */
   .pull-4 {
     position: relative;
     right: 33.33333%;
     left: auto;
   }
 
-  /* line 264, ../scss/components/_grid.scss */
+  /* line 278, ../scss/components/_grid.scss */
   .push-5 {
     position: relative;
     left: 41.66667%;
     right: auto;
   }
 
-  /* line 267, ../scss/components/_grid.scss */
+  /* line 281, ../scss/components/_grid.scss */
   .pull-5 {
     position: relative;
     right: 41.66667%;
     left: auto;
   }
 
-  /* line 264, ../scss/components/_grid.scss */
+  /* line 278, ../scss/components/_grid.scss */
   .push-6 {
     position: relative;
     left: 50%;
     right: auto;
   }
 
-  /* line 267, ../scss/components/_grid.scss */
+  /* line 281, ../scss/components/_grid.scss */
   .pull-6 {
     position: relative;
     right: 50%;
     left: auto;
   }
 
-  /* line 264, ../scss/components/_grid.scss */
+  /* line 278, ../scss/components/_grid.scss */
   .push-7 {
     position: relative;
     left: 58.33333%;
     right: auto;
   }
 
-  /* line 267, ../scss/components/_grid.scss */
+  /* line 281, ../scss/components/_grid.scss */
   .pull-7 {
     position: relative;
     right: 58.33333%;
     left: auto;
   }
 
-  /* line 264, ../scss/components/_grid.scss */
+  /* line 278, ../scss/components/_grid.scss */
   .push-8 {
     position: relative;
     left: 66.66667%;
     right: auto;
   }
 
-  /* line 267, ../scss/components/_grid.scss */
+  /* line 281, ../scss/components/_grid.scss */
   .pull-8 {
     position: relative;
     right: 66.66667%;
     left: auto;
   }
 
-  /* line 264, ../scss/components/_grid.scss */
+  /* line 278, ../scss/components/_grid.scss */
   .push-9 {
     position: relative;
     left: 75%;
     right: auto;
   }
 
-  /* line 267, ../scss/components/_grid.scss */
+  /* line 281, ../scss/components/_grid.scss */
   .pull-9 {
     position: relative;
     right: 75%;
     left: auto;
   }
 
-  /* line 264, ../scss/components/_grid.scss */
+  /* line 278, ../scss/components/_grid.scss */
   .push-10 {
     position: relative;
     left: 83.33333%;
     right: auto;
   }
 
-  /* line 267, ../scss/components/_grid.scss */
+  /* line 281, ../scss/components/_grid.scss */
   .pull-10 {
     position: relative;
     right: 83.33333%;
     left: auto;
   }
 
-  /* line 264, ../scss/components/_grid.scss */
+  /* line 278, ../scss/components/_grid.scss */
   .push-11 {
     position: relative;
     left: 91.66667%;
     right: auto;
   }
 
-  /* line 267, ../scss/components/_grid.scss */
+  /* line 281, ../scss/components/_grid.scss */
   .pull-11 {
     position: relative;
     right: 91.66667%;
@@ -4478,168 +5006,168 @@ label.error {
     float: left;
   }
 
-  /* line 275, ../scss/components/_grid.scss */
+  /* line 289, ../scss/components/_grid.scss */
   .push-0 {
     position: relative;
     left: 0;
     right: auto;
   }
 
-  /* line 278, ../scss/components/_grid.scss */
+  /* line 292, ../scss/components/_grid.scss */
   .pull-0 {
     position: relative;
     right: 0;
     left: auto;
   }
 
-  /* line 275, ../scss/components/_grid.scss */
+  /* line 289, ../scss/components/_grid.scss */
   .push-1 {
     position: relative;
     left: 8.33333%;
     right: auto;
   }
 
-  /* line 278, ../scss/components/_grid.scss */
+  /* line 292, ../scss/components/_grid.scss */
   .pull-1 {
     position: relative;
     right: 8.33333%;
     left: auto;
   }
 
-  /* line 275, ../scss/components/_grid.scss */
+  /* line 289, ../scss/components/_grid.scss */
   .push-2 {
     position: relative;
     left: 16.66667%;
     right: auto;
   }
 
-  /* line 278, ../scss/components/_grid.scss */
+  /* line 292, ../scss/components/_grid.scss */
   .pull-2 {
     position: relative;
     right: 16.66667%;
     left: auto;
   }
 
-  /* line 275, ../scss/components/_grid.scss */
+  /* line 289, ../scss/components/_grid.scss */
   .push-3 {
     position: relative;
     left: 25%;
     right: auto;
   }
 
-  /* line 278, ../scss/components/_grid.scss */
+  /* line 292, ../scss/components/_grid.scss */
   .pull-3 {
     position: relative;
     right: 25%;
     left: auto;
   }
 
-  /* line 275, ../scss/components/_grid.scss */
+  /* line 289, ../scss/components/_grid.scss */
   .push-4 {
     position: relative;
     left: 33.33333%;
     right: auto;
   }
 
-  /* line 278, ../scss/components/_grid.scss */
+  /* line 292, ../scss/components/_grid.scss */
   .pull-4 {
     position: relative;
     right: 33.33333%;
     left: auto;
   }
 
-  /* line 275, ../scss/components/_grid.scss */
+  /* line 289, ../scss/components/_grid.scss */
   .push-5 {
     position: relative;
     left: 41.66667%;
     right: auto;
   }
 
-  /* line 278, ../scss/components/_grid.scss */
+  /* line 292, ../scss/components/_grid.scss */
   .pull-5 {
     position: relative;
     right: 41.66667%;
     left: auto;
   }
 
-  /* line 275, ../scss/components/_grid.scss */
+  /* line 289, ../scss/components/_grid.scss */
   .push-6 {
     position: relative;
     left: 50%;
     right: auto;
   }
 
-  /* line 278, ../scss/components/_grid.scss */
+  /* line 292, ../scss/components/_grid.scss */
   .pull-6 {
     position: relative;
     right: 50%;
     left: auto;
   }
 
-  /* line 275, ../scss/components/_grid.scss */
+  /* line 289, ../scss/components/_grid.scss */
   .push-7 {
     position: relative;
     left: 58.33333%;
     right: auto;
   }
 
-  /* line 278, ../scss/components/_grid.scss */
+  /* line 292, ../scss/components/_grid.scss */
   .pull-7 {
     position: relative;
     right: 58.33333%;
     left: auto;
   }
 
-  /* line 275, ../scss/components/_grid.scss */
+  /* line 289, ../scss/components/_grid.scss */
   .push-8 {
     position: relative;
     left: 66.66667%;
     right: auto;
   }
 
-  /* line 278, ../scss/components/_grid.scss */
+  /* line 292, ../scss/components/_grid.scss */
   .pull-8 {
     position: relative;
     right: 66.66667%;
     left: auto;
   }
 
-  /* line 275, ../scss/components/_grid.scss */
+  /* line 289, ../scss/components/_grid.scss */
   .push-9 {
     position: relative;
     left: 75%;
     right: auto;
   }
 
-  /* line 278, ../scss/components/_grid.scss */
+  /* line 292, ../scss/components/_grid.scss */
   .pull-9 {
     position: relative;
     right: 75%;
     left: auto;
   }
 
-  /* line 275, ../scss/components/_grid.scss */
+  /* line 289, ../scss/components/_grid.scss */
   .push-10 {
     position: relative;
     left: 83.33333%;
     right: auto;
   }
 
-  /* line 278, ../scss/components/_grid.scss */
+  /* line 292, ../scss/components/_grid.scss */
   .pull-10 {
     position: relative;
     right: 83.33333%;
     left: auto;
   }
 
-  /* line 275, ../scss/components/_grid.scss */
+  /* line 289, ../scss/components/_grid.scss */
   .push-11 {
     position: relative;
     left: 91.66667%;
     right: auto;
   }
 
-  /* line 278, ../scss/components/_grid.scss */
+  /* line 292, ../scss/components/_grid.scss */
   .pull-11 {
     position: relative;
     right: 91.66667%;
@@ -9377,34 +9905,12 @@ th.hide-for-touch {
 }
 
 /* line 73, ../scss/app.scss */
-.story-intro-1 {
+.story-intro__container {
   height: 348px;
-  background-color: #F6F6F6;
-  border-bottom: 1px solid #E3E3E3;
 }
-/* line 78, ../scss/app.scss */
-.story-intro-1 .story-intro-1__copy {
-  height: 348px;
-  padding: 5% 0;
-}
-@media only screen and (min-width: 48.0625em) and (max-width: 64em) {
-  /* line 78, ../scss/app.scss */
-  .story-intro-1 .story-intro-1__copy {
-    padding: 6% 0;
-  }
-}
-/* line 85, ../scss/app.scss */
-.story-intro-1 .story-intro-1__copy .story-intro-1__copy-container {
-  padding: 6% 0;
-}
-@media only screen and (min-width: 48.0625em) and (max-width: 64em) {
-  /* line 85, ../scss/app.scss */
-  .story-intro-1 .story-intro-1__copy .story-intro-1__copy-container {
-    padding: 12% 0;
-  }
-}
-/* line 91, ../scss/app.scss */
-.story-intro-1 .story-intro-1__copy .story-intro-1__copy-container .story-intro-1__title {
+
+/* line 77, ../scss/app.scss */
+.story-intro__title {
   font-family: "Sofia Pro";
   font-weight: 500;
   font-size: 36px;
@@ -9414,36 +9920,62 @@ th.hide-for-touch {
   letter-spacing: 1.5px;
 }
 @media only screen and (min-width: 48.0625em) and (max-width: 64em) {
-  /* line 91, ../scss/app.scss */
-  .story-intro-1 .story-intro-1__copy .story-intro-1__copy-container .story-intro-1__title {
+  /* line 77, ../scss/app.scss */
+  .story-intro__title {
     font-size: 30px;
     line-height: 30px;
   }
 }
-/* line 105, ../scss/app.scss */
-.story-intro-1 .story-intro-1__copy .story-intro-1__copy-container .story-intro-1__dek {
+
+/* line 91, ../scss/app.scss */
+.story-intro__dek {
   font-family: "FreightDisp Pro", Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 24px;
-  color: #818386;
 }
 @media only screen and (min-width: 48.0625em) and (max-width: 64em) {
-  /* line 105, ../scss/app.scss */
-  .story-intro-1 .story-intro-1__copy .story-intro-1__copy-container .story-intro-1__dek {
+  /* line 91, ../scss/app.scss */
+  .story-intro__dek {
     font-size: 16px;
     line-height: 20px;
   }
 }
-/* line 118, ../scss/app.scss */
+
+/* line 101, ../scss/app.scss */
+.story-intro-1 {
+  background-color: #F2E7D4;
+}
+/* line 104, ../scss/app.scss */
+.story-intro-1 .story-intro-1__copy {
+  height: 348px;
+  padding: 5% 0;
+}
+@media only screen and (min-width: 48.0625em) and (max-width: 64em) {
+  /* line 104, ../scss/app.scss */
+  .story-intro-1 .story-intro-1__copy {
+    padding: 6% 0;
+  }
+}
+/* line 111, ../scss/app.scss */
+.story-intro-1 .story-intro-1__copy .story-intro-1__copy-container {
+  padding: 6% 0;
+}
+@media only screen and (min-width: 48.0625em) and (max-width: 64em) {
+  /* line 111, ../scss/app.scss */
+  .story-intro-1 .story-intro-1__copy .story-intro-1__copy-container {
+    padding: 12% 0;
+  }
+}
+/* line 119, ../scss/app.scss */
 .story-intro-1 .story-intro-1__img {
   height: 348px;
-  background-image: url(../assets/img__story-intro.jpg);
+  background-image: url(../assets/img__story-intro-1.jpg);
   background-size: cover;
   background-position: center;
 }
 
-/* line 127, ../scss/app.scss */
-.story-intro-1__copy--accordion > a {
+/* line 128, ../scss/app.scss */
+.story-intro__copy--accordion > a {
   font-family: "Sofia Pro";
   font-weight: 500;
   text-transform: uppercase;
@@ -9452,8 +9984,8 @@ th.hide-for-touch {
   text-align: center;
   background: #FFFFFF;
 }
-/* line 136, ../scss/app.scss */
-.story-intro-1__copy--accordion > div {
+/* line 138, ../scss/app.scss */
+.story-intro__copy--accordion > div {
   text-align: center;
   font-family: "FreightDisp Pro", Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 18px;
@@ -9461,41 +9993,136 @@ th.hide-for-touch {
   color: #818386;
 }
 
-/* line 153, ../scss/app.scss */
+/* line 156, ../scss/app.scss */
+.story-intro-2 {
+  background-color: #fff7f6;
+}
+/* line 159, ../scss/app.scss */
+.story-intro-2 .story-intro-2__copy {
+  height: 348px;
+  padding: 6% 0;
+}
+@media only screen and (min-width: 64.0625em) {
+  /* line 159, ../scss/app.scss */
+  .story-intro-2 .story-intro-2__copy {
+    padding: 3% 0;
+  }
+}
+/* line 166, ../scss/app.scss */
+.story-intro-2 .story-intro-2__copy .story-intro-2__copy-container {
+  padding: 9% 0;
+  text-align: center;
+}
+@media only screen and (min-width: 30.0625em) {
+  /* line 166, ../scss/app.scss */
+  .story-intro-2 .story-intro-2__copy .story-intro-2__copy-container {
+    padding: 3% 0;
+  }
+}
+@media only screen and (min-width: 64.0625em) {
+  /* line 166, ../scss/app.scss */
+  .story-intro-2 .story-intro-2__copy .story-intro-2__copy-container {
+    padding: 3% 0;
+  }
+}
+/* line 176, ../scss/app.scss */
+.story-intro-2 .story-intro-2__copy .story-intro-2__copy-container .story-intro-2__title {
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  color: #c38b84;
+  margin-bottom: 12px;
+}
+@media only screen and (min-width: 30.0625em) {
+  /* line 176, ../scss/app.scss */
+  .story-intro-2 .story-intro-2__copy .story-intro-2__copy-container .story-intro-2__title {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+/* line 188, ../scss/app.scss */
+.story-intro-2 .story-intro-2__copy .story-intro-2__copy-container .story-intro-2__dek {
+  font-size: 18px;
+  line-height: 24px;
+}
+@media only screen and (min-width: 30.0625em) {
+  /* line 188, ../scss/app.scss */
+  .story-intro-2 .story-intro-2__copy .story-intro-2__copy-container .story-intro-2__dek {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+/* line 209, ../scss/app.scss */
+.story-intro-3 {
+  background-color: #323232;
+}
+/* line 212, ../scss/app.scss */
+.story-intro-3 .story-intro-3__copy {
+  padding: 5% 0;
+  color: #FFFFFF;
+}
+@media only screen and (min-width: 48.0625em) and (max-width: 64em) {
+  /* line 212, ../scss/app.scss */
+  .story-intro-3 .story-intro-3__copy {
+    padding: 6% 0;
+  }
+}
+/* line 219, ../scss/app.scss */
+.story-intro-3 .story-intro-3__copy .story-intro-3__copy-container {
+  padding: 3% 0;
+}
+@media only screen and (min-width: 48.0625em) and (max-width: 64em) {
+  /* line 219, ../scss/app.scss */
+  .story-intro-3 .story-intro-3__copy .story-intro-3__copy-container {
+    padding: 12% 0;
+  }
+}
+/* line 227, ../scss/app.scss */
+.story-intro-3 .story-intro-3__img {
+  height: 348px;
+  background-image: url(../assets/img__story-intro-3.jpg);
+  background-size: cover;
+  background-position: center;
+  line-height: 348px;
+  text-align: center;
+}
+
+/* line 245, ../scss/app.scss */
 .product-grid {
   margin-top: 12px;
 }
 @media only screen and (min-width: 30.0625em) and (max-width: 48em) {
-  /* line 153, ../scss/app.scss */
+  /* line 245, ../scss/app.scss */
   .product-grid {
     margin-top: 30px;
   }
 }
 @media only screen and (min-width: 48.0625em) {
-  /* line 153, ../scss/app.scss */
+  /* line 245, ../scss/app.scss */
   .product-grid {
     margin-top: 42px;
   }
 }
-/* line 168, ../scss/app.scss */
+/* line 260, ../scss/app.scss */
 .product-grid > div > ul > li > div {
   background-color: #F6F6F6;
   height: 158px;
 }
 @media only screen and (min-width: 30.0625em) and (max-width: 48em) {
-  /* line 168, ../scss/app.scss */
+  /* line 260, ../scss/app.scss */
   .product-grid > div > ul > li > div {
     height: 255px;
   }
 }
 @media only screen and (min-width: 48.0625em) and (max-width: 64em) {
-  /* line 168, ../scss/app.scss */
+  /* line 260, ../scss/app.scss */
   .product-grid > div > ul > li > div {
     height: 340px;
   }
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 168, ../scss/app.scss */
+  /* line 260, ../scss/app.scss */
   .product-grid > div > ul > li > div {
     height: 460px;
   }

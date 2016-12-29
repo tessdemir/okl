@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Foundation</title>
+        <title>Video</title>
         <link rel="stylesheet" href="stylesheets/app.css" />
         <script src="bower_components/modernizr/modernizr.js"></script>
     </head>
@@ -18,14 +18,24 @@
 
 <!-- STORY INTRO -->
 		<div class="story-intro__container story-intro-3">
-			<div class="story-intro-3__copy show-for-large-up medium-4 columns">
-				<div class="story-intro-3__copy-container medium-10 medium-offset-1 large-9 large-offset-1 columns">
-					<div class="story-intro__title">Iris Apfel</div>
-					<div class="story-intro__dek">Legendary decorating doyenne, textiles designer, and fashion luminary Iris Apfel needs no introduction. She’s opened the doors once again to her personal trove of jewelry. Watch our video Q&amp;A with the charming style star, then take a gander at her phenomenal pieces below—and act (very) fast!</div>
+			<div id="content-1">
+				<div class="story-intro-3__copy show-for-large-up medium-4 columns">
+					<div class="story-intro-3__copy-container medium-10 medium-offset-1 large-9 large-offset-1 columns">
+						<div class="story-intro__title">Iris Apfel</div>
+						<div class="story-intro__dek">Legendary decorating doyenne, textiles designer, and fashion luminary Iris Apfel needs no introduction. She’s opened the doors once again to her personal trove of jewelry. Watch our video Q&amp;A with the charming style star, then take a gander at her phenomenal pieces below—and act (very) fast!</div>
+					</div>
+				</div>
+				<div class="story-intro-3__img small-12 medium-8 columns">
+					<a id="video-button" href="#">
+						<img src="assets/img__play-button.png" alt="Watch Video">
+					</a>
 				</div>
 			</div>
-			<div class="story-intro-3__img small-12 medium-8 columns">
-				<img src="assets/img__play-button.png" alt="Watch Video">
+			<div id="content-2" class="story-intro-3__video small-12 columns text-center">
+				<iframe width="853" height="480" src="https://www.youtube.com/embed/VLH9bx2Ij0k?autoplay=1" frameborder="0" allowfullscreen></iframe>
+				<a id="video-close-button" href="#">
+					<img src="assets/icon__close.png" alt="Close">
+				</a>
 			</div>
 		</div>
 		
@@ -55,9 +65,31 @@
             </div>
         </div>
         
-
+		
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="bower_components/foundation/js/foundation.min.js"></script>
         <script src="js/app.js"></script>
+        <script>
+        	$(document).ready(function() {
+		    	console.log("ready");
+				
+				$("#video-button").click(function(){
+					$("#content-1").fadeOut("fast");
+					$(".story-intro__container").delay(300).animate({
+							height: "540px"
+						}, 300 );
+					$("#content-2").delay(500).fadeIn("fast");
+				});
+				
+				$("#video-close-button").click(function(){
+					$("#content-2").fadeOut("fast");
+					$(".story-intro__container").delay(100).animate({
+							height: "348px"
+						}, 300 );
+					$("#content-1").delay(300).fadeIn("fast");
+				});
+				
+			});
+        </script>
     </body>
 </html>

@@ -9941,40 +9941,7 @@ th.hide-for-touch {
   }
 }
 
-/* line 101, ../scss/app.scss */
-.story-intro-1 {
-  background-color: #F2E7D4;
-}
-/* line 104, ../scss/app.scss */
-.story-intro-1 .story-intro-1__copy {
-  height: 348px;
-  padding: 5% 0;
-}
-@media only screen and (min-width: 48.0625em) and (max-width: 64em) {
-  /* line 104, ../scss/app.scss */
-  .story-intro-1 .story-intro-1__copy {
-    padding: 6% 0;
-  }
-}
-/* line 111, ../scss/app.scss */
-.story-intro-1 .story-intro-1__copy .story-intro-1__copy-container {
-  padding: 6% 0;
-}
-@media only screen and (min-width: 48.0625em) and (max-width: 64em) {
-  /* line 111, ../scss/app.scss */
-  .story-intro-1 .story-intro-1__copy .story-intro-1__copy-container {
-    padding: 12% 0;
-  }
-}
-/* line 119, ../scss/app.scss */
-.story-intro-1 .story-intro-1__img {
-  height: 348px;
-  background-image: url(../assets/img__story-intro-1.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-/* line 128, ../scss/app.scss */
+/* line 102, ../scss/app.scss */
 .story-intro__copy--accordion > a {
   font-family: "Sofia Pro";
   font-weight: 500;
@@ -9984,7 +9951,7 @@ th.hide-for-touch {
   text-align: center;
   background: #FFFFFF;
 }
-/* line 138, ../scss/app.scss */
+/* line 112, ../scss/app.scss */
 .story-intro__copy--accordion > div {
   text-align: center;
   font-family: "FreightDisp Pro", Georgia, Cambria, "Times New Roman", Times, serif;
@@ -9993,39 +9960,72 @@ th.hide-for-touch {
   color: #818386;
 }
 
-/* line 156, ../scss/app.scss */
+/* line 122, ../scss/app.scss */
+.story-intro-1 {
+  background-color: #F2E7D4;
+}
+/* line 125, ../scss/app.scss */
+.story-intro-1 .story-intro-1__copy {
+  height: 348px;
+  padding: 5% 0;
+}
+@media only screen and (min-width: 48.0625em) and (max-width: 64em) {
+  /* line 125, ../scss/app.scss */
+  .story-intro-1 .story-intro-1__copy {
+    padding: 6% 0;
+  }
+}
+/* line 132, ../scss/app.scss */
+.story-intro-1 .story-intro-1__copy .story-intro-1__copy-container {
+  padding: 6% 0;
+}
+@media only screen and (min-width: 48.0625em) and (max-width: 64em) {
+  /* line 132, ../scss/app.scss */
+  .story-intro-1 .story-intro-1__copy .story-intro-1__copy-container {
+    padding: 12% 0;
+  }
+}
+/* line 140, ../scss/app.scss */
+.story-intro-1 .story-intro-1__img {
+  height: 348px;
+  background-image: url(../assets/img__story-intro-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 149, ../scss/app.scss */
 .story-intro-2 {
   background-color: #fff7f6;
 }
-/* line 159, ../scss/app.scss */
+/* line 152, ../scss/app.scss */
 .story-intro-2 .story-intro-2__copy {
   height: 348px;
   padding: 6% 0;
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 159, ../scss/app.scss */
+  /* line 152, ../scss/app.scss */
   .story-intro-2 .story-intro-2__copy {
     padding: 3% 0;
   }
 }
-/* line 166, ../scss/app.scss */
+/* line 159, ../scss/app.scss */
 .story-intro-2 .story-intro-2__copy .story-intro-2__copy-container {
   padding: 9% 0;
   text-align: center;
 }
 @media only screen and (min-width: 30.0625em) {
-  /* line 166, ../scss/app.scss */
+  /* line 159, ../scss/app.scss */
   .story-intro-2 .story-intro-2__copy .story-intro-2__copy-container {
     padding: 3% 0;
   }
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 166, ../scss/app.scss */
+  /* line 159, ../scss/app.scss */
   .story-intro-2 .story-intro-2__copy .story-intro-2__copy-container {
     padding: 3% 0;
   }
 }
-/* line 176, ../scss/app.scss */
+/* line 169, ../scss/app.scss */
 .story-intro-2 .story-intro-2__copy .story-intro-2__copy-container .story-intro-2__title {
   font-size: 30px;
   line-height: 30px;
@@ -10034,51 +10034,51 @@ th.hide-for-touch {
   margin-bottom: 12px;
 }
 @media only screen and (min-width: 30.0625em) {
-  /* line 176, ../scss/app.scss */
+  /* line 169, ../scss/app.scss */
   .story-intro-2 .story-intro-2__copy .story-intro-2__copy-container .story-intro-2__title {
     font-size: 36px;
     line-height: 36px;
   }
 }
-/* line 188, ../scss/app.scss */
+/* line 181, ../scss/app.scss */
 .story-intro-2 .story-intro-2__copy .story-intro-2__copy-container .story-intro-2__dek {
   font-size: 18px;
   line-height: 24px;
 }
 @media only screen and (min-width: 30.0625em) {
-  /* line 188, ../scss/app.scss */
+  /* line 181, ../scss/app.scss */
   .story-intro-2 .story-intro-2__copy .story-intro-2__copy-container .story-intro-2__dek {
     font-size: 22px;
     line-height: 30px;
   }
 }
 
-/* line 209, ../scss/app.scss */
+/* line 194, ../scss/app.scss */
 .story-intro-3 {
   background-color: #323232;
 }
-/* line 212, ../scss/app.scss */
+/* line 197, ../scss/app.scss */
 .story-intro-3 .story-intro-3__copy {
   padding: 5% 0;
   color: #FFFFFF;
 }
 @media only screen and (min-width: 48.0625em) and (max-width: 64em) {
-  /* line 212, ../scss/app.scss */
+  /* line 197, ../scss/app.scss */
   .story-intro-3 .story-intro-3__copy {
     padding: 6% 0;
   }
 }
-/* line 219, ../scss/app.scss */
+/* line 204, ../scss/app.scss */
 .story-intro-3 .story-intro-3__copy .story-intro-3__copy-container {
   padding: 3% 0;
 }
 @media only screen and (min-width: 48.0625em) and (max-width: 64em) {
-  /* line 219, ../scss/app.scss */
+  /* line 204, ../scss/app.scss */
   .story-intro-3 .story-intro-3__copy .story-intro-3__copy-container {
     padding: 12% 0;
   }
 }
-/* line 227, ../scss/app.scss */
+/* line 212, ../scss/app.scss */
 .story-intro-3 .story-intro-3__img {
   height: 348px;
   background-image: url(../assets/img__story-intro-3.jpg);
@@ -10087,42 +10087,54 @@ th.hide-for-touch {
   line-height: 348px;
   text-align: center;
 }
+/* line 221, ../scss/app.scss */
+.story-intro-3 .story-intro-3__video {
+  display: none;
+  height: 540px;
+  background-color: #323232;
+  padding: 30px 0;
+}
+/* line 227, ../scss/app.scss */
+.story-intro-3 .story-intro-3__video > a {
+  position: absolute;
+  margin-left: 10px;
+}
 
-/* line 245, ../scss/app.scss */
+/* line 242, ../scss/app.scss */
 .product-grid {
   margin-top: 12px;
 }
 @media only screen and (min-width: 30.0625em) and (max-width: 48em) {
-  /* line 245, ../scss/app.scss */
+  /* line 242, ../scss/app.scss */
   .product-grid {
     margin-top: 30px;
   }
 }
 @media only screen and (min-width: 48.0625em) {
-  /* line 245, ../scss/app.scss */
+  /* line 242, ../scss/app.scss */
   .product-grid {
     margin-top: 42px;
   }
 }
-/* line 260, ../scss/app.scss */
+/* line 257, ../scss/app.scss */
 .product-grid > div > ul > li > div {
   background-color: #F6F6F6;
   height: 158px;
 }
 @media only screen and (min-width: 30.0625em) and (max-width: 48em) {
-  /* line 260, ../scss/app.scss */
+  /* line 257, ../scss/app.scss */
   .product-grid > div > ul > li > div {
     height: 255px;
   }
 }
 @media only screen and (min-width: 48.0625em) and (max-width: 64em) {
-  /* line 260, ../scss/app.scss */
+  /* line 257, ../scss/app.scss */
   .product-grid > div > ul > li > div {
     height: 340px;
   }
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 260, ../scss/app.scss */
+  /* line 257, ../scss/app.scss */
   .product-grid > div > ul > li > div {
     height: 460px;
   }
